@@ -1,0 +1,49 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/Test/IntegerTest/QUESTAVERILOG
+T_opt
+Z2 !s110 1719079107
+V9k_00I9Rj_2o8W:dzCF1k2
+04 16 4 work CounterComponent fast 0
+=1-000ae431a4f1-667710c3-39293-2b14
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet +acc -auto_acc_if_foreign -work sim_build/work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+vCounterComponent
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 O1^mW;BjJ[hUk:K3>m=Yj0
+I1IBbTEJLiQQ?=YJg?XNCi0
+S1
+R1
+w1719078513
+8/home/emnalo/Test/IntegerTest/QUESTAVERILOG/CounterComponent.v
+F/home/emnalo/Test/IntegerTest/QUESTAVERILOG/CounterComponent.v
+!i122 0
+L0 1 39
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2022.4;75
+r1
+!s85 0
+31
+!s108 1719079107.000000
+!s107 /home/emnalo/Test/IntegerTest/QUESTAVERILOG/CounterComponent.v|
+!s90 -work|work|-sv|-timescale|1ns/1ps|-mfcu|+acc|/home/emnalo/Test/IntegerTest/QUESTAVERILOG/CounterComponent.v|
+!i113 0
+o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@counter@component

@@ -1,0 +1,108 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e vcom 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL
+T_opt
+Z2 !s110 1719077283
+VQPJUhF4>om=m8_BjSekN;2
+04 16 10 work genericcomponent behavioral 1
+=1-000ae431a4f1-667709a3-7c235-23e2
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work sim_build/work
+tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+Egenericcomponent
+Z3 w1717718693
+Z4 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z5 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z6 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z7 8/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/GenericComponent.vhdl
+Z8 F/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/GenericComponent.vhdl
+l0
+L5 1
+V2QX>5[Qf5eM9KlE3nFaT`2
+!s100 4gI9InaR;H]Xk>Bz68<Ac0
+Z9 OL;C;2022.4;75
+32
+R2
+!i10b 1
+Z10 !s108 1719077283.000000
+Z11 !s90 -work|work|+acc|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/GenericComponent.vhdl|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/Inversor.vhdl|
+Z12 !s107 /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/Inversor.vhdl|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/GenericComponent.vhdl|
+!i113 0
+Z13 o-work work +acc
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R4
+R5
+R6
+DEx4 work 16 genericcomponent 0 22 2QX>5[Qf5eM9KlE3nFaT`2
+!i122 0
+l42
+L18 68
+V`9Ve<LTdL<Gm1WYG3n1F10
+!s100 oOe6M2`9SE>m=RRRI_V4V3
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Einversor
+Z15 w1717707087
+R5
+R6
+!i122 0
+R1
+Z16 8/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/Inversor.vhdl
+Z17 F/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVHDL/Inversor.vhdl
+l0
+L4 1
+VFX]Ef0Q3X?XR:jD^^kH>V2
+!s100 iKk<>PYYbYeP;L@a8G41d0
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Abehavioral
+R5
+R6
+DEx4 work 8 inversor 0 22 FX]Ef0Q3X?XR:jD^^kH>V2
+!i122 0
+l15
+L14 4
+VOWi[70X6L_H130S696B>C0
+!s100 2hEbKo6>g5c;MoVHkKPC@2
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

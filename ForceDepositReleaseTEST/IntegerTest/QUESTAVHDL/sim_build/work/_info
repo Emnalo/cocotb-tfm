@@ -1,0 +1,67 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e vcom 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/Test/IntegerTest/QUESTAVHDL
+T_opt
+Z2 !s110 1719079115
+VIWKi1n@KeBGKIIGG0eA3O1
+04 16 10 work countercomponent behavioral 1
+=1-000ae431a4f1-667710cb-80d97-2b9c
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work sim_build/work
+tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+Ecountercomponent
+Z3 w1719073126
+Z4 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z5 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z6 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z7 8/home/emnalo/Test/IntegerTest/QUESTAVHDL/CounterComponent.vhdl
+Z8 F/home/emnalo/Test/IntegerTest/QUESTAVHDL/CounterComponent.vhdl
+l0
+L5 1
+V<Q2P<[KIUIA2EmFMkY_P_3
+!s100 O9Dl@P>hX4_4Eh<_1HWmC3
+Z9 OL;C;2022.4;75
+32
+R2
+!i10b 1
+Z10 !s108 1719079115.000000
+Z11 !s90 -work|work|+acc|/home/emnalo/Test/IntegerTest/QUESTAVHDL/CounterComponent.vhdl|
+Z12 !s107 /home/emnalo/Test/IntegerTest/QUESTAVHDL/CounterComponent.vhdl|
+!i113 0
+Z13 o-work work +acc
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R4
+R5
+R6
+DEx4 work 16 countercomponent 0 22 <Q2P<[KIUIA2EmFMkY_P_3
+!i122 0
+l19
+L14 35
+VRjE`Eag7:dXZLQO23lE[=1
+!s100 2A:7^EgNZmNHAKoh_7;HL2
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

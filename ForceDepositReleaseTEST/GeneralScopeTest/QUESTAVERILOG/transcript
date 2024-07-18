@@ -1,0 +1,97 @@
+# do sim_build/runsim.do
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap -c 
+# ** Warning: vmap will not overwrite local modelsim.ini.
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap work sim_build/work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+# Start time: 19:40:23 on Jun 22,2024
+# vlog -work work -sv -timescale 1ns/1ps -mfcu "+acc" /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/Inversor.v 
+# -- Compiling module GenericComponent
+# -- Compiling module Inversor
+# 
+# Top level modules:
+# 	GenericComponent
+# End time: 19:40:23 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish exit -pli "/home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbvpi_modelsim.so" sim_build/work.GenericComponent 
+# Start time: 19:40:23 on Jun 22,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "GenericComponent(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# //  Questa Sim-64
+# //  Version 2022.4 linux_x86_64 Oct 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.GenericComponent(fast)
+# Loading work.Inversor(fast)
+# Loading /home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbvpi_modelsim.so
+#      -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+#      -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+#      0.00ns INFO     cocotb                             Running on ModelSim for Questa-64 version 2022.4 2022.10
+#      0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+#      0.00ns INFO     cocotb                             Seeding Python random module with 1719078024
+#      0.00ns INFO     cocotb.regression                  running FailTest.FailTest (1/1)
+# ** Warning: (vsim-PLI-3110) $dumpfile : This task can be called only once. Please use $fdumpfile()
+# for multiple files.
+#    Time: 0 ps  Iteration: 0  Process: /GenericComponent/#INITIAL#80 File: /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v Line: 81
+#     30.00ns INFO     cocotb.GenericComponent            State transitioned to WORKING
+#     30.00ns INFO     cocotb.GenericComponent            Fault injection in dout - Original value: 0000
+#     40.00ns INFO     cocotb.GenericComponent            Fault injection in dout - Injected value (force): 0000
+#     50.00ns INFO     cocotb.GenericComponent            Fault injection in dout - Final value: 0001
+#     50.00ns INFO     cocotb.GenericComponent            Fault injection in dout (force) passed. Signal value: 0001
+#     50.00ns INFO     cocotb.GenericComponent            Fault injection in temp_var - Original value: 0001
+#     60.00ns INFO     cocotb.GenericComponent            Fault injection in temp_var - Injected value (force): 0000
+#     70.00ns INFO     cocotb.GenericComponent            Fault injection in temp_var - Final value: 0001
+#     70.00ns INFO     cocotb.GenericComponent            Fault injection in temp_var (force) passed. Signal value: 0001
+#     70.00ns INFO     cocotb.GenericComponent            Fault injection in array_constant - Original value: 1111
+#     80.00ns INFO     cocotb.GenericComponent            Fault injection in array_constant - Injected value (force): 1000
+#     90.00ns INFO     cocotb.GenericComponent            Fault injection in array_constant - Final value: 1111
+#     90.00ns INFO     cocotb.GenericComponent            Fault injection in array_constant (force) passed. Signal value: 1111
+#     90.00ns INFO     cocotb.GenericComponent            Fault injection in salida inversor - Original value: 1110
+#    100.00ns INFO     cocotb.GenericComponent            Fault injection in salida inversor - Injected value (force): 1000
+#    110.00ns INFO     cocotb.GenericComponent            Fault injection in salida inversor - Final value: 1110
+#    110.00ns INFO     cocotb.GenericComponent            Fault injection in salida inversor (force) passed. Signal value: 1110
+#    110.00ns INFO     cocotb.GenericComponent            Fault injection in counter - Original value: 8
+#    120.00ns INFO     cocotb.GenericComponent            Fault injection in counter - Injected value (force): 1
+#    130.00ns INFO     cocotb.GenericComponent            Fault injection in counter - Final value: 2
+#    130.00ns INFO     cocotb.GenericComponent            Fault injection in counter (force) passed. Signal value: 2
+#    130.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Original value: 1
+#    140.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Injected value (force): 0
+#    150.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Final value: 0
+#    150.00ns INFO     cocotb.GenericComponent            Fault injection in enable (force) passed. Signal value: 0
+#    150.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Original value: 0
+#    160.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Injected value (force): 1
+#    170.00ns INFO     cocotb.GenericComponent            Fault injection in enable - Final value: 1
+#    170.00ns INFO     cocotb.GenericComponent            Fault injection in enable (force) passed. Signal value: 1
+#    170.00ns INFO     cocotb.GenericComponent            Fault injection in state - Original value: 01
+#    180.00ns INFO     cocotb.GenericComponent            Fault injection in state - Injected value (force): 00
+#    190.00ns INFO     cocotb.GenericComponent            Fault injection in state - Final value: 01
+#    190.00ns INFO     cocotb.GenericComponent            Fault injection in state (force) passed. Signal value: 01
+#    310.00ns INFO     cocotb.regression                  FailTest.FailTest passed
+#    310.00ns INFO     cocotb.regression                  **************************************************************************************
+#                                                         ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+#                                                         **************************************************************************************
+#                                                         ** FailTest.FailTest              PASS         310.00           0.01      58440.31  **
+#                                                         **************************************************************************************
+#                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0                310.00           0.01      29378.61  **
+#                                                         **************************************************************************************
+#                                                         
+# ** Note: $finish    : /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v(83)
+#    Time: 310001 ps  Iteration: 0  Instance: /GenericComponent
+# End time: 19:40:24 on Jun 22,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3

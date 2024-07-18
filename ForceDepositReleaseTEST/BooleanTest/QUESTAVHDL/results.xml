@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1719779359" />
+    <testcase name="FailTest" classname="ForceTest" file="/home/emnalo/Test/BooleanTest/QUESTAVHDL/ForceTest.py" lineno="20" time="0.007191896438598633" sim_time_ns="100.001" ratio_time="13904.677417669485" />
+  </testsuite>
+</testsuites>

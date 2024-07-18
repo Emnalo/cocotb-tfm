@@ -1,0 +1,288 @@
+$date
+	Sun Jul 14 02:24:34 2024
+
+$end
+$version
+	nvc 1.12.0
+$end
+$timescale
+	1fs
+$end
+$attrbegin misc 03 /home/emnalo/Test/UNITTESTINGAUTO/NVC/infra/source/RegisteredALU_tb.vhd 1 $end
+$attrbegin misc 04 1 41 $end
+$scope vhdl_architecture registeredalu_tb $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! rst $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " clk $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 # en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 $ a[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 % b[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 3 & operation[2:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ' zero $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ( result[7:0] $end
+$attrbegin misc 04 1 44 $end
+$scope vhdl_architecture uut $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! rst_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " clk_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 # en_i $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 $ a_i[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 % b_i[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 3 & operation_i[2:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ' zero_o $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ( result_o[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) result[7:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 * zero $end
+$attrbegin misc 03 /home/emnalo/Test/UNITTESTINGAUTO/NVC/infra/source/RegisteredALU.vhd 2 $end
+$attrbegin misc 04 2 48 $end
+$scope vhdl_architecture alu $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 $ a_i[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 % b_i[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 3 & operation_i[2:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 * zero_o $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) result_o[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + add_result[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 , sub_result[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 - and_result[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 . or_result[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 / slt_result[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 0 aux_result[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 57 $end
+$scope vhdl_architecture result_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! rst_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " clk_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 # en_i $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) d_i[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ( q_o[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 1 aux[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 57 $end
+$scope vhdl_architecture zero_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! rst_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " clk_i $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 # en_i $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 1 2 aux[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+b00000000 1
+b00000000 0
+b00000000 /
+b00000000 .
+b00000000 -
+b00000000 ,
+b00000000 +
+1*
+b00000000 )
+b00000000 (
+0'
+b010 &
+b00000000 %
+b00000000 $
+1#
+0"
+0!
+$end
+#5000000
+1"
+1'
+12
+#10000000
+0"
+b110 &
+#15000000
+1"
+#20000000
+0"
+b000 &
+#25000000
+1"
+#30000000
+0"
+b001 &
+#35000000
+1"
+#40000000
+0"
+b111 &
+#45000000
+1"
+#50000000
+0"
+b010 &
+b00111010 $
+b00011001 %
+b01010011 )
+0*
+b01010011 +
+b00100001 ,
+b00011000 -
+b00111011 .
+b01010011 0
+#55000000
+1"
+02
+0'
+b01010011 (
+b01010011 1
+#60000000
+0"
+b00100001 0
+b00100001 )
+b110 &
+#65000000
+1"
+b00100001 1
+b00100001 (
+#70000000
+0"
+b000 &
+b00011000 )
+b00011000 0
+#75000000
+1"
+b00011000 (
+b00011000 1
+#80000000
+0"
+b00111011 0
+b00111011 )
+b001 &
+#85000000
+1"
+b00111011 1
+b00111011 (
+#90000000
+0"
+b111 &
+b00000000 )
+b00000000 0
+1*
+#95000000
+1"
+b00000000 (
+b00000000 1
+1'
+12
+#100000000
+0"
+0*
+b00010010 0
+b00010010 )
+b010 &
+b00001110 .
+b00000100 -
+b00001010 ,
+b00010010 +
+b00000100 %
+b00001110 $
+#105000000
+1"
+02
+0'
+b00010010 1
+b00010010 (
+#110000000
+0"
+b110 &
+b00001010 )
+b00001010 0
+#115000000
+1"
+b00001010 (
+b00001010 1
+#120000000
+0"
+b00000100 0
+b00000100 )
+b000 &
+#125000000
+1"
+b00000100 1
+b00000100 (
+#130000000
+0"
+b001 &
+b00001110 )
+b00001110 0
+#135000000
+1"
+b00001110 (
+b00001110 1
+#140000000
+0"
+b00000000 0
+b00000000 )
+b111 &
+1*
+#145000000
+1"
+b00000000 1
+b00000000 (
+1'
+12
+#150000000
+0"
+#155000000
+1"
+#160000000
+0"
+#165000000
+1"
+#170000000
+0"
+#175000000
+1"
+#180000000
+0"
+#185000000
+1"
+#190000000
+0"
+#195000000
+1"
+#200000000
+0"
+#200000001

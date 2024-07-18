@@ -1,0 +1,26 @@
+{
+    "exp": {
+        "test1": {
+            "signal_name": "uut.alu.a_i",
+            "fault_type": "transient",
+            "fault_value": 90,
+            "injection_time": 100,
+            "duration": 20
+        },
+        "test2": {
+            "signal_name": "uut.alu.b_i",
+            "fault_type": "permanent",
+            "fault_value": 4,
+            "injection_time": 100
+        },
+        "test3": {
+            "signal_name": "uut.alu.a_i",
+            "fault_type": "transient",
+            "fault_value": 33,
+            "injection_interval": [0, 100],
+            "duration": 15
+        }
+    }
+}
+
+

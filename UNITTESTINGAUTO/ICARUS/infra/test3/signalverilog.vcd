@@ -1,0 +1,278 @@
+$date
+	Sun Jul 14 01:50:04 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RegisteredALU_tb $end
+$var wire 1 ! zero $end
+$var wire 8 " result [7:0] $end
+$var reg 8 # a [7:0] $end
+$var reg 8 $ b [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & en $end
+$var reg 3 ' operation [2:0] $end
+$var reg 1 ( rst $end
+$var integer 32 ) experiments [31:0] $end
+$var integer 32 * failures [31:0] $end
+$scope module uut $end
+$var wire 8 + a_i [7:0] $end
+$var wire 8 , b_i [7:0] $end
+$var wire 1 % clk_i $end
+$var wire 1 & en_i $end
+$var wire 3 - operation_i [2:0] $end
+$var wire 1 ( rst_i $end
+$var wire 1 ! zero_o $end
+$var wire 1 . zero $end
+$var wire 8 / result_o [7:0] $end
+$var wire 8 0 result [7:0] $end
+$scope module alu $end
+$var wire 8 1 a_i [7:0] $end
+$var wire 8 2 and_result [7:0] $end
+$var wire 8 3 b_i [7:0] $end
+$var wire 3 4 operation_i [2:0] $end
+$var wire 8 5 or_result [7:0] $end
+$var wire 8 6 result_o [7:0] $end
+$var wire 1 . zero_o $end
+$var wire 8 7 sub_result [7:0] $end
+$var wire 8 8 slt_result [7:0] $end
+$var wire 8 9 add_result [7:0] $end
+$var reg 8 : aux_result [7:0] $end
+$upscope $end
+$scope module result_register $end
+$var wire 1 % clk_i $end
+$var wire 8 ; d_i [7:0] $end
+$var wire 1 & en_i $end
+$var wire 1 ( rst_i $end
+$var reg 8 < aux [7:0] $end
+$var reg 8 = q_o [7:0] $end
+$upscope $end
+$scope module zero_register $end
+$var wire 1 % clk_i $end
+$var wire 1 . d_i $end
+$var wire 1 & en_i $end
+$var wire 1 ( rst_i $end
+$var reg 1 > aux $end
+$var reg 1 ! q_o $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0>
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+1.
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+1(
+b0 '
+1&
+0%
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10000
+0(
+#15000
+1!
+1>
+b10 '
+b10 -
+b10 4
+1%
+#20000
+0%
+#25000
+b110 '
+b110 -
+b110 4
+b1 )
+1%
+#30000
+0%
+#35000
+0.
+b11000 2
+b111011 5
+b1010011 0
+b1010011 6
+b1010011 ;
+b1010011 :
+b10 '
+b10 -
+b10 4
+b11001 $
+b11001 ,
+b11001 3
+b1010011 9
+b100001 7
+b111010 #
+b111010 +
+b111010 1
+b10 )
+1%
+#40000
+0%
+#45000
+b1010011 "
+b1010011 /
+b1010011 =
+0!
+b1010011 <
+0>
+b100001 0
+b100001 6
+b100001 ;
+b100001 :
+b110 '
+b110 -
+b110 4
+b11 )
+b1 *
+1%
+#48000
+b1 2
+b111001 5
+b1000 0
+b1000 6
+b1000 ;
+b1000 :
+b111010 9
+b1000 7
+b100001 #
+b100001 +
+b100001 1
+#50000
+0%
+#55000
+b1000 "
+b1000 /
+b1000 =
+b1000 <
+b111010 0
+b111010 6
+b111010 ;
+b111010 :
+b10 '
+b10 -
+b10 4
+b100001 #
+b100001 +
+b100001 1
+b100 )
+b10 *
+1%
+#60000
+0%
+#63000
+b1000 2
+b11111 5
+b100111 0
+b100111 6
+b100111 ;
+b100111 :
+b1 8
+b100111 9
+b11110101 7
+b1110 #
+b1110 +
+b1110 1
+#65000
+b100111 "
+b100111 /
+b100111 =
+b100111 <
+b11110101 0
+b11110101 6
+b11110101 ;
+b11110101 :
+b110 '
+b110 -
+b110 4
+b101 )
+b11 *
+1%
+#70000
+0%
+#75000
+b11110101 "
+b11110101 /
+b11110101 =
+b11110101 <
+b110 )
+b100 *
+1%
+#80000
+0%
+#85000
+1%
+#90000
+0%
+#95000
+1%
+#100000
+0%
+#105000
+1%
+#110000
+0%
+#115000
+1%
+#120000
+0%
+#125000
+1%
+#130000
+0%
+#135000
+1%
+#140000
+0%
+#145000
+1%
+#150000
+0%
+#155000
+1%
+#160000
+0%
+#165000
+1%
+#170000
+0%
+#175000
+1%
+#180000
+0%
+#185000
+1%
+#190000
+0%
+#195000
+1%
+#200000
+0%
+#200001

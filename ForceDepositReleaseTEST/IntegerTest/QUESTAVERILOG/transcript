@@ -1,0 +1,66 @@
+# do sim_build/runsim.do
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap -c 
+# ** Warning: vmap will not overwrite local modelsim.ini.
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap work sim_build/work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+# Start time: 19:58:27 on Jun 22,2024
+# vlog -work work -sv -timescale 1ns/1ps -mfcu "+acc" /home/emnalo/Test/IntegerTest/QUESTAVERILOG/CounterComponent.v 
+# -- Compiling module CounterComponent
+# 
+# Top level modules:
+# 	CounterComponent
+# End time: 19:58:27 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish exit -pli "/home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbvpi_modelsim.so" sim_build/work.CounterComponent 
+# Start time: 19:58:27 on Jun 22,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# //  Questa Sim-64
+# //  Version 2022.4 linux_x86_64 Oct 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.CounterComponent(fast)
+# Loading /home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbvpi_modelsim.so
+#      -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+#      -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+#      0.00ns INFO     cocotb                             Running on ModelSim for Questa-64 version 2022.4 2022.10
+#      0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+#      0.00ns INFO     cocotb                             Seeding Python random module with 1719079107
+#      0.00ns INFO     cocotb.regression                  running ForceTest.FailTest (1/1)
+#   1780.00ns INFO     cocotb.CounterComponent            Inyeccion de fallos en int_counter
+#   1780.00ns INFO     cocotb.CounterComponent            Valor original en int_counter: 0000
+#   1780.00ns INFO     cocotb.CounterComponent            Inyeccion de fallos en unsigned_counter
+#   1780.00ns INFO     cocotb.CounterComponent            Valor original en unsigned_counter: 0000
+#   1800.00ns INFO     cocotb.CounterComponent            Valor inyectado en int_counter: 0100
+#   1800.00ns INFO     cocotb.CounterComponent            Valor inyectado en unsigned_counter: 0100
+#   1900.00ns INFO     cocotb.CounterComponent            Valor final en int_counter: 1100
+#   1900.00ns INFO     cocotb.CounterComponent            Valor final en unsigned_counter: 0001
+#   1900.00ns INFO     cocotb.regression                  ForceTest.FailTest passed
+#   1900.00ns INFO     cocotb.regression                  **************************************************************************************
+#                                                         ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+#                                                         **************************************************************************************
+#                                                         ** ForceTest.FailTest             PASS        1900.00           0.02      76222.18  **
+#                                                         **************************************************************************************
+#                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0               1900.00           0.03      67007.89  **
+#                                                         **************************************************************************************
+#                                                         
+# ** Note: $finish    : UNKNOWN(-1)
+#    Time: 1900001 ps  Iteration: 0  Instance: /CounterComponent
+# End time: 19:58:27 on Jun 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

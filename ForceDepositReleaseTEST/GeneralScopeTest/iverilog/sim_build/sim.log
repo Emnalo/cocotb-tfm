@@ -1,0 +1,22 @@
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 11.0 (stable)
+     0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+     0.00ns WARNING  gpi                                vpi_iterate returned NULL for type vpiInstance for object NULL
+     0.00ns INFO     cocotb                             Seeding Python random module with 1718920946
+     0.00ns INFO     cocotb.regression                  running ForceTest.FailTest (1/1)
+    30.00ns INFO     cocotb.GenericComponent            State transitioned to WORKING
+    30.00ns INFO     cocotb.GenericComponent            Original value: 0
+    50.00ns INFO     cocotb.GenericComponent            Injected value : 4
+   150.00ns INFO     cocotb.GenericComponent            Final value: 10
+   150.00ns INFO     cocotb.regression                  ForceTest.FailTest passed
+   150.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** ForceTest.FailTest             PASS         150.00           0.00      69711.89  **
+                                                        **************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0                150.00           0.01      26872.96  **
+                                                        **************************************************************************************
+                                                        
+VCD info: dumpfile failsignal.vcd opened for output.
+VCD warning: skipping signal GenericComponent.temp_var, it was previously included.

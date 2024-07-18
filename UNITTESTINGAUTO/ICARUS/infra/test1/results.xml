@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1720914593" />
+    <testcase name="dynamic_test" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/infra/test1/ParametricTest.py" lineno="83" time="0.0015594959259033203" sim_time_ns="200.001" ratio_time="128247.20903592723" />
+  </testsuite>
+</testsuites>

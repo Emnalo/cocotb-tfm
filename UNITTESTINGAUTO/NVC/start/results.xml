@@ -1,0 +1,9 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1721292461" />
+    <testcase name="golden_run" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/NVC/start/ParametricTest.py" lineno="105" time="0.0016283988952636719" sim_time_ns="40.000001" ratio_time="24564.006470615517" />
+    <testcase name="test_experiment_1" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/NVC/start/ParametricTest.py" lineno="115" time="0.0020444393157958984" sim_time_ns="40.000001" ratio_time="19565.266961434867" />
+    <testcase name="test_experiment_2" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/NVC/start/ParametricTest.py" lineno="115" time="0.0014925003051757812" sim_time_ns="40.00000100000001" ratio_time="26800.665206757836" />
+    <testcase name="test_experiment_3" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/NVC/start/ParametricTest.py" lineno="115" time="0.0015516281127929688" sim_time_ns="40.00000099999998" ratio_time="25779.373723771347" />
+  </testsuite>
+</testsuites>

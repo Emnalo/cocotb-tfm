@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<signals><signal><nombre>uut.result</nombre><valor>00000000</valor></signal><signal><nombre>uut.alu.add_result</nombre><valor>01110011</valor></signal><signal><nombre>uut.result_register.aux</nombre><valor>00000000</valor></signal></signals>

@@ -1,0 +1,38 @@
+# //  Questa Sim-64
+# //  Version 2022.4 linux_x86_64 Oct 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vsim work.booleancomponent
+# vsim work.booleancomponent 
+# Start time: 22:29:37 on Jun 30,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.booleancomponent(behavioral)#1
+add wave -position end  sim:/booleancomponent/clk
+add wave -position end  sim:/booleancomponent/rst
+add wave -position end  sim:/booleancomponent/bool_signal
+add wave -position end  sim:/booleancomponent/bool_reg
+force -freeze sim:/booleancomponent/clk 1 0, 0 {5000 ps} -r 10000
+force -freeze sim:/booleancomponent/rst 0 0
+run 50ns
+force -freeze sim:/booleancomponent/bool_signal TRUE 0
+run 20ns
+noforce sim:/booleancomponent/bool_signal
+run 20ns
+# End time: 23:15:07 on Jun 30,2024, Elapsed time: 0:45:30
+# Errors: 0, Warnings: 1

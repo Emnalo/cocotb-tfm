@@ -1,0 +1,74 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG
+T_opt
+Z2 !s110 1719078023
+V=J;c6mo^Dd[3Ql3Wm6HYU1
+04 16 4 work GenericComponent fast 0
+=1-000ae431a4f1-66770c87-7403e-24a0
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet +acc -auto_acc_if_foreign -work sim_build/work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+vGenericComponent
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 [Y2l?ki0iYm4;2F1fVz0S1
+IBOGL@;F2OnVAegghh56Uk1
+S1
+R1
+w1717719943
+8/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v
+F/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v
+!i122 0
+L0 1 86
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z7 !s108 1719078023.000000
+Z8 !s107 /home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/Inversor.v|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v|
+Z9 !s90 -work|work|-sv|-timescale|1ns/1ps|-mfcu|+acc|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/GenericComponent.v|/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/Inversor.v|
+!i113 0
+Z10 o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@generic@component
+vInversor
+R4
+R2
+!i10b 1
+!s100 lBbZP`1hE;ARkhJHTgFOe0
+IAC_^WKbYL=JbSRR:9X>jN2
+S1
+R1
+w1717710699
+8/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/Inversor.v
+F/home/emnalo/Test/ForceDepositReleaseTEST/QUESTAVERILOG/Inversor.v
+!i122 0
+L0 1 8
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R3
+n@inversor

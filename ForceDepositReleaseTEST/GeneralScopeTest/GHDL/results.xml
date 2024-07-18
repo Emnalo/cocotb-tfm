@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1718916444" />
+    <testcase name="FailTest" classname="FailTest" file="/home/emnalo/Test/ForceDepositReleaseTEST/GHDL/FailTest.py" lineno="6" time="0.0018548965454101562" sim_time_ns="150.001" ratio_time="80867.58281542416" />
+  </testsuite>
+</testsuites>

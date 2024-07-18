@@ -1,0 +1,20 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1720916180" />
+    <testcase name="golden_run" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/ParametricTest.py" lineno="1" time="7.070075035095215" sim_time_ns="0.0" ratio_time="0.0">
+      <failure message="Test failed with RANDOM_SEED=1720916180" />
+    </testcase>
+    <testcase name="test_experiment_1" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/ParametricTest.py" lineno="1" time="0" sim_time_ns="0" ratio_time="nan">
+      <failure message="Test failed with RANDOM_SEED=1720916180" />
+    </testcase>
+    <testcase name="test_experiment_2" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/ParametricTest.py" lineno="1" time="0" sim_time_ns="0" ratio_time="nan">
+      <failure message="Test failed with RANDOM_SEED=1720916180" />
+    </testcase>
+    <testcase name="test_experiment_3" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/ParametricTest.py" lineno="1" time="0" sim_time_ns="0" ratio_time="nan">
+      <failure message="Test failed with RANDOM_SEED=1720916180" />
+    </testcase>
+    <testcase name="finish" classname="ParametricTest" file="/home/emnalo/Test/UNITTESTINGAUTO/ICARUS/ParametricTest.py" lineno="1" time="0" sim_time_ns="0" ratio_time="nan">
+      <failure message="Test failed with RANDOM_SEED=1720916180" />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,35 @@
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 11.0 (stable)
+     0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+     0.00ns WARNING  gpi                                vpi_iterate returned NULL for type vpiInstance for object NULL
+     0.00ns INFO     cocotb                             Seeding Python random module with 1720914917
+     0.00ns INFO     cocotb.regression                  running ParametricTest.golden_run (1/4)
+    40.00ns INFO     cocotb.regression                  ParametricTest.golden_run passed
+    40.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_1 (2/4)
+    65.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00111010
+    65.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00111010
+    65.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00111010
+    70.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_1 passed
+    70.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_2 (3/4)
+    95.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00000001
+    95.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00000001
+   105.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000001
+   110.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_2 passed
+   110.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_3 (4/4)
+   135.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00111010
+   135.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00111010
+   145.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000001
+   150.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_3 passed
+   150.00ns INFO     cocotb.regression                  ******************************************************************************************
+                                                        ** TEST                              STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        ******************************************************************************************
+                                                        ** ParametricTest.golden_run          PASS          40.00           0.00      19801.29  **
+                                                        ** ParametricTest.test_experiment_1   PASS          30.00           0.00      18606.14  **
+                                                        ** ParametricTest.test_experiment_2   PASS          40.00           0.00      21205.30  **
+                                                        ** ParametricTest.test_experiment_3   PASS          40.00           0.00      20875.50  **
+                                                        ******************************************************************************************
+                                                        ** TESTS=4 PASS=4 FAIL=0 SKIP=0                    150.00           0.01      11840.16  **
+                                                        ******************************************************************************************
+                                                        
+VCD info: dumpfile starticarus.vcd opened for output.

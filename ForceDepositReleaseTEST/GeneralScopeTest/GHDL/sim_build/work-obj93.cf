@@ -1,0 +1,7 @@
+v 4
+file / "/home/emnalo/Test/ForceDepositReleaseTEST/GHDL/GenericComponent.vhdl" "c6b8b4e6242ecdb743487c2143eb3736f41115db" "20240620204723.894":
+  entity genericcomponent at 1( 0) + 0 on 11;
+  architecture behavioral of genericcomponent at 18( 545) + 0 on 12;
+file / "/home/emnalo/Test/ForceDepositReleaseTEST/GHDL/Inversor.vhdl" "5407b568bd2eb31fef9ab2322441bf92d5f710b2" "20240620204723.894":
+  entity inversor at 1( 0) + 0 on 13;
+  architecture behavioral of inversor at 14( 297) + 0 on 14;

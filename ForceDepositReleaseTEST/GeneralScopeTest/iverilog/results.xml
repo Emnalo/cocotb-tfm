@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1718920946" />
+    <testcase name="FailTest" classname="ForceTest" file="/home/emnalo/Test/ForceDepositReleaseTEST/iverilog/ForceTest.py" lineno="6" time="0.0021517276763916016" sim_time_ns="150.001" ratio_time="69711.88856554017" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,81 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/Test/BooleanTest/QUESTAVHDL
+T_opt
+Z2 !s110 1719779358
+V@z[:6=>f<iLohJFI[<<li0
+Z3 04 16 10 work booleancomponent behavioral 1
+=1-000ae431a4f1-6681c01e-554d8-106e
+R0
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work sim_build/work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2022.4;75
+R1
+T_opt1
+!s110 1719779377
+V;>Q=1XmXF1@jFn6ib`4GB0
+R3
+=1-000ae431a4f1-6681c031-44449-1098
+R0
+R4
+R5
+o-quiet -auto_acc_if_foreign -work work
+R6
+n@_opt1
+R7
+Ebooleancomponent
+Z8 w1719074671
+Z9 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z10 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z11 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z12 8/home/emnalo/Test/BooleanTest/QUESTAVHDL/BooleanComponent.vhdl
+Z13 F/home/emnalo/Test/BooleanTest/QUESTAVHDL/BooleanComponent.vhdl
+l0
+L5 1
+VJ^mFnzDTbHgAK8LU8_Wak1
+!s100 Gz9e0EZ`KP5SkK:6:SW0>0
+Z14 OL;C;2022.4;75
+32
+R2
+!i10b 1
+Z15 !s108 1719779358.000000
+Z16 !s90 -work|work|+acc|/home/emnalo/Test/BooleanTest/QUESTAVHDL/BooleanComponent.vhdl|
+Z17 !s107 /home/emnalo/Test/BooleanTest/QUESTAVHDL/BooleanComponent.vhdl|
+!i113 0
+Z18 o-work work +acc
+Z19 tExplicit 1 CvgOpt 0
+Abehavioral
+R9
+R10
+R11
+DEx4 work 16 booleancomponent 0 22 J^mFnzDTbHgAK8LU8_Wak1
+!i122 0
+l15
+L13 15
+VOMTg5mf6_]LJPM_@lLSDj2
+!s100 6lLa4;oG0YmoZ:7YlKMNg2
+R14
+32
+R2
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19

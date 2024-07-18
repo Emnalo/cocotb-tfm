@@ -1,0 +1,85 @@
+$date
+	Mon Jul  1 01:55:15 2024
+
+$end
+$version
+	nvc 1.12.0
+$end
+$timescale
+	1fs
+$end
+$attrbegin misc 03 /home/emnalo/Test/BooleanTest/NVC/BooleanComponent.vhdl 1 $end
+$attrbegin misc 04 1 13 $end
+$scope vhdl_architecture booleancomponent $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clk $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " rst $end
+$attrbegin misc 02 BOOLEAN 1025 $end
+$var string 0 # bool_signal $end
+$attrbegin misc 02 BOOLEAN 1025 $end
+$var string 0 $ bool_reg $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+sfalse $
+sfalse #
+1"
+1!
+$end
+#5000000
+0!
+#10000000
+1!
+0"
+#15000000
+0!
+#20000000
+1!
+strue #
+strue $
+#25000000
+0!
+#30000000
+1!
+sfalse $
+#35000000
+0!
+#40000000
+1!
+strue $
+strue #
+#45000000
+0!
+#50000000
+1!
+sfalse #
+sfalse $
+#55000000
+0!
+#60000000
+1!
+strue $
+strue #
+#65000000
+0!
+#70000000
+1!
+sfalse #
+sfalse $
+#75000000
+0!
+#80000000
+1!
+strue $
+strue #
+#85000000
+0!
+#90000000
+1!
+sfalse #
+sfalse $
+#95000000
+0!
+#100000001
