@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<signals><signal><nombre>result_o</nombre><valor>00000001</valor></signal><signal><nombre>zero_o</nombre><valor>0</valor></signal><signal><nombre>result_o</nombre><valor>00000001</valor></signal><signal><nombre>zero_o</nombre><valor>0</valor></signal></signals>
+<signals><signal><nombre>result_o</nombre><valor>00000000</valor></signal><signal><nombre>zero_o</nombre><valor>1</valor></signal></signals>
