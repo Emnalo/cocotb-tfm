@@ -3,33 +3,33 @@
      0.00ns INFO     cocotb                             Running on Icarus Verilog version 11.0 (stable)
      0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
      0.00ns WARNING  gpi                                vpi_iterate returned NULL for type vpiInstance for object NULL
-     0.00ns INFO     cocotb                             Seeding Python random module with 1721322306
-     0.00ns INFO     cocotb.regression                  running ParametricTest.golden_run (1/4)
-    40.00ns INFO     cocotb.regression                  ParametricTest.golden_run passed
-    40.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_1 (2/4)
+     0.00ns INFO     cocotb                             Seeding Python random module with 1721594828
+     0.00ns INFO     cocotb.regression                  running StartTest.golden_run (1/4)
+    40.00ns INFO     cocotb.regression                  StartTest.golden_run passed
+    40.00ns INFO     cocotb.regression                  running StartTest.test_experiment_1 (2/4)
     60.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00111010
     79.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00111010
-    79.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000001
-    79.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_1 passed
-    79.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_2 (3/4)
-    99.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00000001
-    99.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00000001
+    79.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000010
+    79.00ns INFO     cocotb.regression                  StartTest.test_experiment_1 passed
+    79.00ns INFO     cocotb.regression                  running StartTest.test_experiment_2 (3/4)
+    99.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00000010
+    99.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00000010
    109.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000001
-   119.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_2 passed
-   119.00ns INFO     cocotb.regression                  running ParametricTest.test_experiment_3 (4/4)
+   119.00ns INFO     cocotb.regression                  StartTest.test_experiment_2 passed
+   119.00ns INFO     cocotb.regression                  running StartTest.test_experiment_3 (4/4)
    139.00ns INFO     cocotb.RegisteredALU               Valor original en alu.a_i: 00111010
    139.00ns INFO     cocotb.RegisteredALU               Valor inyectado en alu.a_i: 00111010
    149.00ns INFO     cocotb.RegisteredALU               Valor final en alu.a_i: 00000001
-   159.00ns INFO     cocotb.regression                  ParametricTest.test_experiment_3 passed
-   159.00ns INFO     cocotb.regression                  ******************************************************************************************
-                                                        ** TEST                              STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
-                                                        ******************************************************************************************
-                                                        ** ParametricTest.golden_run          PASS          40.00           0.00      33105.04  **
-                                                        ** ParametricTest.test_experiment_1   PASS          39.00           0.00      34953.43  **
-                                                        ** ParametricTest.test_experiment_2   PASS          40.00           0.00      35463.19  **
-                                                        ** ParametricTest.test_experiment_3   PASS          40.00           0.00      37102.25  **
-                                                        ******************************************************************************************
-                                                        ** TESTS=4 PASS=4 FAIL=0 SKIP=0                    159.00           0.01      16823.77  **
-                                                        ******************************************************************************************
+   159.00ns INFO     cocotb.regression                  StartTest.test_experiment_3 passed
+   159.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** StartTest.golden_run           PASS          40.00           0.00      21670.93  **
+                                                        ** StartTest.test_experiment_1    PASS          39.00           0.00      28164.95  **
+                                                        ** StartTest.test_experiment_2    PASS          40.00           0.00      27676.73  **
+                                                        ** StartTest.test_experiment_3    PASS          40.00           0.00      30966.47  **
+                                                        **************************************************************************************
+                                                        ** TESTS=4 PASS=4 FAIL=0 SKIP=0                159.00           0.01      14411.60  **
+                                                        **************************************************************************************
                                                         
 VCD info: dumpfile starticarus.vcd opened for output.

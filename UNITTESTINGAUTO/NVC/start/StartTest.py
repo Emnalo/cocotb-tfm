@@ -119,8 +119,6 @@ def test_factory(exp, test_name):
         injection_time = instante_inyeccion(valor=exp.get("injection_time"), intervalo=exp.get("injection_interval"))
         cocotb.start_soon(testbench(dut))
         await Timer(injection_time, units='ns')
-        signal_name = exp["signal_name"]
-        signal = getattr(dut, signal_name)
         # Inyectar el fallo
         await inject_fault(dut, exp["signal_name"], exp["fault_type"], exp["fault_value"], exp.get("duration", 0))
 	
@@ -131,9 +129,6 @@ def test_factory(exp, test_name):
             await Timer(remaining_time, units='ns')
         # Observar las señales y guardarlas
         observe_signals(dut, f"{test_name}.xml")
-        valor = signal.value
-        #signal.value = Deposit(valor)
-        #await Timer (10, units='ns')
 
     return dynamic_test
 

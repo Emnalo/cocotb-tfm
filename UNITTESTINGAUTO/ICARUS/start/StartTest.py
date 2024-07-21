@@ -75,7 +75,7 @@ observed_signals = ["result_o", "zero_o"]  # Definir las señales a observar
 # Generar funciones de test dinámicamente
 experiments = [
     #Si inyectamos fallo permanente la duración debe ser 1ns más que la duración total del testbench. 
-    {"signal_name": "alu.a_i", "fault_type": "permanent", "fault_value": 1, "injection_time": 20, "duration": 20},
+    {"signal_name": "alu.a_i", "fault_type": "permanent", "fault_value": 2, "injection_time": 20, "duration": 20},
     {"signal_name": "alu.a_i", "fault_type": "transient", "fault_value": 1, "injection_time": 20, "duration": 10},
     {"signal_name": "alu.a_i", "fault_type": "transient", "fault_value": 1, "injection_time": 20, "duration": 10},
     #{"signal_name": "uut.alu.b_i", "fault_type": "permanent", "fault_value": 20, "injection_interval": (0, 100)},
@@ -119,8 +119,6 @@ def test_factory(exp, test_name):
         injection_time = instante_inyeccion(valor=exp.get("injection_time"), intervalo=exp.get("injection_interval"))
         cocotb.start_soon(testbench(dut))
         await Timer(injection_time, units='ns')
-        signal_name = exp["signal_name"]
-        signal = getattr(dut, signal_name)
         # Inyectar el fallo
         await inject_fault(dut, exp["signal_name"], exp["fault_type"], exp["fault_value"], exp.get("duration", 0))
 	
@@ -131,9 +129,6 @@ def test_factory(exp, test_name):
             await Timer(remaining_time, units='ns')
         # Observar las señales y guardarlas
         observe_signals(dut, f"{test_name}.xml")
-        valor = signal.value
-        #signal.value = Deposit(valor)
-        #await Timer (10, units='ns')
 
     return dynamic_test
 

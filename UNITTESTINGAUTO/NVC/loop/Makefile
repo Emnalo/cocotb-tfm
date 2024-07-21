@@ -5,7 +5,7 @@ VHDL_SOURCES +=$(PWD)/RegisterNbits.vhd
 VHDL_SOURCES +=$(PWD)/RegisteredALU.vhd
 VHDL_SOURCES +=$(PWD)/RegisteredALU_tbloop.vhd
 TOPLEVEL =registeredalu_tbloop
-MODULE =ParametricTest
+MODULE =LoopTest
 #COCOTB_PLUSARGS = +OBSERVABLES=a,b,c
 include $(shell cocotb-config --makefiles)/Makefile.sim
 #make SIM=nvc -w
