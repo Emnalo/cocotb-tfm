@@ -3,5 +3,6 @@ Infraestructura generada automáticamente para generación de experimentos para 
 	- infratest.sh: Script que genera las carpetas test copiando los archivos config,makefile y ParametricTest.
 	- Carpeta source: Se aloja el código de descripción hardware del componente utilizado
 	- Makefile y ParametricTest.py: Archivo donde se describe la ejecución de test y archivo make necesario para su ejecución.
+	-GoldenRun.py : Archivo con test inicial sin inyección de fallos fallos
 	- Archivos xml con los resultados de cada experimento, nombrados como las carpetas correspondientes. 
 	- compare_signals.py: Script que compara los archivos xml con una Goldenrun.xml
