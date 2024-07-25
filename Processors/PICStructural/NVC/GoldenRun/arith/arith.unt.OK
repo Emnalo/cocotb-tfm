@@ -1,0 +1,14 @@
+NUMBER_OF_UNITS = 3
+COMPILATION_DATE 11863
+COMPILATION_TIME 6666
+
+[FILE D:\Modelos VHDL\PICStructural\arith\arith.vhd]
+MODIFICATION_DATE 11130
+MODIFICATION_TIME 43887
+
+[PACKAGE std_logic_arith]
+DEPENDENCIES ieee.std_logic_1164	util.util
+NODES = 22
+
+[PACKAGE BODY std_logic_arith]
+DEPENDENCIES ieee.std_logic_1164	util.util	arith.std_logic_arith

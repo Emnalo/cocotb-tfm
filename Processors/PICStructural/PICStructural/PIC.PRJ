@@ -1,0 +1,63 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Project Directory=D:\FRAGONIB\PIC STRUCTURAL\
+Use Relative Directory=0
+Relative to Project File=0
+Project Wordfile=
+[Open Files]
+Open File0=
+Open File Pos0=1507
+Open File Line0=1070
+Active File Index=2
+Open File Window Pos0=0,1,-1,-1,-4,-23,88,88,712,526
+Open File1=D:\Modelos VHDL\PIC_Mutantes_1\pic_rom.vhd
+Open File Pos1=0
+Open File Line1=0
+Open File Window Pos1=0,1,-1,-1,-4,-23,110,110,738,552
+Open File2=D:\Modelos VHDL\PIC_Mutantes_1\pic_rom_old.vhd
+Open File Pos2=0
+Open File Line2=0
+Open File Window Pos2=2,3,-1,-1,-4,-23,132,132,760,574
+Open File3=
+Open File Pos3=19179
+Open File Line3=18021
+Open File Window Pos3=0,1,-1,-1,-4,-23,88,88,614,504
+Open File4=C:\Fragonib\PIC Structural\puertas.vhd
+Active File Display Mode=-1
+Open File Pos4=298
+Open File Line4=0
+Open File Window Pos4=0,1,-1,-1,-4,-23,110,110,636,526
+Open File5=
+[File View]
+Current Select=Abrir archivos\
+
+[Files]
+0=C:\Fragonib\PIC Structural\adder_test_bench.vhd
+1=C:\Fragonib\PIC Structural\bench.vhd
+2=C:\Fragonib\PIC Structural\bench_old.vhd
+3=C:\Fragonib\PIC Structural\Copia de bench.vhd
+4=C:\Fragonib\PIC Structural\Copia de pic_ctrl.vhd
+5=C:\Fragonib\PIC Structural\fadr_mux.vhd
+6=C:\Fragonib\PIC Structural\half_adder.vhd
+7=C:\Fragonib\PIC Structural\pic_alu.vhd
+8=C:\Fragonib\PIC Structural\pic_alu_puertas.vhd
+9=C:\Fragonib\PIC Structural\pic_core.vhd
+10=C:\Fragonib\PIC Structural\pic_ctrl.vhd
+11=C:\Fragonib\PIC Structural\pic_rom.vhd
+12=C:\Fragonib\PIC Structural\pic_rom_old.vhd
+13=C:\Fragonib\PIC Structural\puertas.vhd
+14=C:\Fragonib\PIC Structural\reg_8rst.vhd
+15=C:\Fragonib\PIC Structural\reg_8t.vhd
+16=C:\Fragonib\PIC Structural\reg_cons.vhd
+17=C:\Fragonib\PIC Structural\reg_file.vhd
+18=C:\Fragonib\PIC Structural\reg_fsr.vhd
+19=C:\Fragonib\PIC Structural\reg_inst.vhd
+20=C:\Fragonib\PIC Structural\reg_io.vhd
+21=C:\Fragonib\PIC Structural\reg_pc.vhd
+22=C:\Fragonib\PIC Structural\reg_s.vhd
+23=C:\Fragonib\PIC Structural\reg_w.vhd
+24=C:\Fragonib\PIC Structural\sumador.vhd
+
+[Group]
+1=

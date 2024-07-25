@@ -1,0 +1,697 @@
+m255
+o
+cModel Technology
+dD:\Modelos VHDL\PICStructural
+Ecomparador_a_0
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L293
+V3;XP7ISdlgF7j6_9Bo;Z21
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+DE work p_or AY]HcW]mUWQFNXgfzRPFg2
+DE work comparador_a_0 3;XP7ISdlgF7j6_9Bo;Z21
+l315
+L299
+V:[[V46T[6ZRh;E6QmM^LU2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Edeco
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L203
+VG9h4>Tb6^dnLkZRL42_P71
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_and3 7TY1Co<;6@aFS;lcBR=LT1
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+DE work deco G9h4>Tb6^dnLkZRL42_P71
+l226
+L209
+VzaXa;i;oK=@G_Q[E1EWD10
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Efadr_mux
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889980898
+FD:/Modelos VHDL/PICStructural/fadr_mux.vhd
+l0
+L32
+V>na>PLZ6hGL`]7mK<1eL?1
+OE;C;5.5e;15
+o-work work
+Adataflow
+DE work fadr_mux >na>PLZ6hGL`]7mK<1eL?1
+l41
+L40
+VZd3XHHe1i[N_zXM1:ek^h0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ehalf_adder
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1009446902
+FD:/Modelos VHDL/PICStructural/half_adder.vhd
+l0
+L10
+VDjg?FYd7Re<0i82XR>glU2
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work half_adder Djg?FYd7Re<0i82XR>glU2
+l20
+L18
+V9ajESEHM;AR?aZWlLlXN_3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_and8
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L475
+VcbizgkYPncheXhj5YW2ho0
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_and >Fl6QaJJ4A4J7^:zo9n;F1
+DE work o_and8 cbizgkYPncheXhj5YW2ho0
+l491
+L482
+V^eb[o<9N2XUb4e>7j4Xb:2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_bitclr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L553
+VY1e9HJjL6dGF8GK:RN7cM3
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work deco G9h4>Tb6^dnLkZRL42_P71
+DE work o_and8 cbizgkYPncheXhj5YW2ho0
+DE work o_not8 0dL_T;SBT8lgRNm1<eTl71
+DE work o_bitclr Y1e9HJjL6dGF8GK:RN7cM3
+l583
+L560
+V_4@?4N14Yj_;oLWEXgB6T3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_bitset
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L510
+V>SAbgm<m`SI[34HMY9HVZ2
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work deco G9h4>Tb6^dnLkZRL42_P71
+DE work o_or8 9@Ug<M[S;FZ@=`]0_780Z1
+DE work o_bitset >SAbgm<m`SI[34HMY9HVZ2
+l534
+L517
+V]?G<]NTIm=izafQWc:AO13
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_not8
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L375
+V0dL_T;SBT8lgRNm1<eTl71
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+DE work o_not8 0dL_T;SBT8lgRNm1<eTl71
+l389
+L381
+VRk=TDNg_kWa_BZKlMkR4W2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_or8
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L406
+V9@Ug<M[S;FZ@=`]0_780Z1
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_or AY]HcW]mUWQFNXgfzRPFg2
+DE work o_or8 9@Ug<M[S;FZ@=`]0_780Z1
+l422
+L413
+ValLRcD90A^3<KPjP;W[]Y3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Eo_xor8
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L440
+VJmY[iFl:[dMA6k:K_e_EF3
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_xor gkc3;UzoLc3=c2H0PE[FA1
+DE work o_xor8 JmY[iFl:[dMA6k:K_e_EF3
+l456
+L447
+V2>1>lTT7ahBWXgIcZ5E8j2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_and
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L94
+V>Fl6QaJJ4A4J7^:zo9n;F1
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_and >Fl6QaJJ4A4J7^:zo9n;F1
+l102
+L101
+Vc_8>O2@7cW20<NAC0VTJG0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_and3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L113
+V7TY1Co<;6@aFS;lcBR=LT1
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_and >Fl6QaJJ4A4J7^:zo9n;F1
+DE work p_and3 7TY1Co<;6@aFS;lcBR=LT1
+l133
+L122
+VdK4?nbHzak79nJhbM@9_23
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_nand
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L145
+VD?JA<IUV=GKF5j8?YXln[2
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_nand D?JA<IUV=GKF5j8?YXln[2
+l153
+L152
+VJ6>FC4e19MNLBC?ijAZWg0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_nand3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L164
+V7?n0S?QiZTS3mcC3dzMj[3
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+DE work p_and3 7TY1Co<;6@aFS;lcBR=LT1
+DE work p_nand3 7?n0S?QiZTS3mcC3dzMj[3
+l191
+L173
+V=CZ_4KIe`:Y_T=GhS^hJ<3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_not
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L37
+V7oSNcRW?>SR;oST^OF]X`0
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+l44
+L43
+VmhmAL?CMDOLWmQY38a7N21
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_or
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L55
+VAY]HcW]mUWQFNXgfzRPFg2
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_or AY]HcW]mUWQFNXgfzRPFg2
+l63
+L62
+VeSM82<kVikO[XmWkif1c61
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ep_xor
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1014978056
+FD:/Modelos VHDL/PICStructural/operadores_y_puertas.vhd
+l0
+L76
+Vgkc3;UzoLc3=c2H0PE[FA1
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_xor gkc3;UzoLc3=c2H0PE[FA1
+l84
+L83
+VKQMFi0GlFKD81;41K8@N52
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Epic_alu
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1015267420
+FD:/Modelos VHDL/PICStructural/pic_alu.vhd
+l0
+L159
+VAe`Y?;aRNXD>aMb<iH1V03
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work p_not 7oSNcRW?>SR;oST^OF]X`0
+DE work comparador_a_0 3;XP7ISdlgF7j6_9Bo;Z21
+DE work deco G9h4>Tb6^dnLkZRL42_P71
+DE work o_bitclr Y1e9HJjL6dGF8GK:RN7cM3
+DE work o_bitset >SAbgm<m`SI[34HMY9HVZ2
+DE work o_and8 cbizgkYPncheXhj5YW2ho0
+DE work o_xor8 JmY[iFl:[dMA6k:K_e_EF3
+DE work o_or8 9@Ug<M[S;FZ@=`]0_780Z1
+DE work o_not8 0dL_T;SBT8lgRNm1<eTl71
+DE work sumador SG11n:UUlnEeBaU6dKQA=0
+DE work pic_alu Ae`Y?;aRNXD>aMb<iH1V03
+l276
+L171
+VSib>4`9o^PcbfTUSPf_Ie0
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Adataflow
+DE work pic_alu Ae`Y?;aRNXD>aMb<iH1V03
+l67
+L41
+VK2?kZ>OoEUfT0;24GS1CZ2
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Epic_core
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1006545400
+FD:/Modelos VHDL/PICStructural/pic_core.vhd
+l0
+L22
+VP@i>Y?_e:FTgi77gUM]_T3
+OE;C;5.5e;15
+o-work work
+Astructural
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DE work pic_ctrl 7eTL>jKg^M8AY>DmXUbfX3
+DE work pic_alu Ae`Y?;aRNXD>aMb<iH1V03
+DE work reg_8t lY0Khzk9?IkZa8`k@VGNK3
+DE work reg_cons Hm5YkVC9ZnP<6LS>G5W263
+DE work reg_s GFC@dBbg4h<ZRhaE^m`J41
+DE work reg_pc JBXBR_Zo?@7zY[El3YaXO1
+DE work reg_file n>BKY9HNT`jAK[R^HmOje1
+DE work fadr_mux >na>PLZ6hGL`]7mK<1eL?1
+DE work reg_fsr 70LY2<A4>UR3CD=@fO<hO2
+DE work reg_inst hEQSO0J]J2]Aif^Lh4A1H3
+DE work reg_8rst Q>WGSXgn[?^k[fL]Wbz660
+DE work reg_w [[E1_RBP=hY>c2MD52ZJ41
+DE work reg_io SNE27j6<5BSQ8g?[DY[?n1
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+DE work pic_core P@i>Y?_e:FTgi77gUM]_T3
+l300
+L33
+VNKMb[7S<ROLoj[hTSY:Rg2
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Epic_core_test
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1047485561
+FD:/Modelos VHDL/PICStructural/bench.vhd
+l0
+L26
+V5^5E7=SAdHb@RGk5aYV`d0
+OE;C;5.5e;15
+o-work work
+Atbench_1
+DE work pic_core P@i>Y?_e:FTgi77gUM]_T3
+DE work pic_core_test 5^5E7=SAdHb@RGk5aYV`d0
+l48
+L30
+VS3WL8<7NU@7NEUUEWR:LV2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Epic_ctrl
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/pic_ctrl.vhd
+l0
+L25
+V7eTL>jKg^M8AY>DmXUbfX3
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work pic_ctrl 7eTL>jKg^M8AY>DmXUbfX3
+l127
+L65
+V02WiCiM=RnK8:VB?ASTO@3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Epic_rom
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1013692794
+FD:/Modelos VHDL/PICStructural/pic_rom.vhd
+l0
+L61
+VBL6VcDCGVYIMHi9MbBzj21
+OE;C;5.5e;15
+o-work work
+Abubblesort
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+l236
+L235
+VnKgo?ghANRA?h0OknQFJ@0
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Asumatorio
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+l136
+L135
+VnE7;hTNnIX<0oo`i<lh:m0
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Atbench_prog
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+l69
+L68
+VV7bjR[[dHcBW2cY?;8gNA2
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Ereg_8rst
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_8rst.vhd
+l0
+L28
+VQ>WGSXgn[?^k[fL]Wbz660
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_8rst Q>WGSXgn[?^k[fL]Wbz660
+l40
+L38
+VSTzm3ZWKcz0Yc;LOeI8RH2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_8t
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_8t.vhd
+l0
+L25
+VlY0Khzk9?IkZa8`k@VGNK3
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_8t lY0Khzk9?IkZa8`k@VGNK3
+l37
+L35
+V59dU_j`R>nKmjUAcFcEhU1
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_cons
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_cons.vhd
+l0
+L27
+VHm5YkVC9ZnP<6LS>G5W263
+OE;C;5.5e;15
+o-work work
+Adataflow
+DE work reg_cons Hm5YkVC9ZnP<6LS>G5W263
+l36
+L35
+VN1cH^oH9Di_?@i3_W:4kB0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_file
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1015286400
+FD:/Modelos VHDL/PICStructural/reg_file.vhd
+l0
+L25
+Vn>BKY9HNT`jAK[R^HmOje1
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_file n>BKY9HNT`jAK[R^HmOje1
+l63
+L36
+VJVTW1NPATQA;UDb=<VYeh0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_fsr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_fsr.vhd
+l0
+L27
+V70LY2<A4>UR3CD=@fO<hO2
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_fsr 70LY2<A4>UR3CD=@fO<hO2
+l40
+L38
+VUd1=O]Ih`8T_YgeeCl=zE0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_inst
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984498
+FD:/Modelos VHDL/PICStructural/reg_inst.vhd
+l0
+L32
+VhEQSO0J]J2]Aif^Lh4A1H3
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_inst hEQSO0J]J2]Aif^Lh4A1H3
+l46
+L44
+VfUnL>mka9geWd8mTY7?Sj3
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_io
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_io.vhd
+l0
+L32
+VSNE27j6<5BSQ8g?[DY[?n1
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_io SNE27j6<5BSQ8g?[DY[?n1
+l47
+L44
+VC6P_]=L>LT2ja0A7`3P]G0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_pc
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1009367546
+FD:/Modelos VHDL/PICStructural/reg_pc.vhd
+l0
+L41
+VJBXBR_Zo?@7zY[El3YaXO1
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_pc JBXBR_Zo?@7zY[El3YaXO1
+l60
+L58
+VfPH>GZiIYNSbz0[VoGC=X2
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+o-work work
+Ereg_s
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_s.vhd
+l0
+L26
+VGFC@dBbg4h<ZRhaE^m`J41
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_s GFC@dBbg4h<ZRhaE^m`J41
+l44
+L42
+VCgl7>IS]g8ac>o2cVFD2>0
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ereg_w
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w889984500
+FD:/Modelos VHDL/PICStructural/reg_w.vhd
+l0
+L26
+V[[E1_RBP=hY>c2MD52ZJ41
+OE;C;5.5e;15
+o-work work
+Amixed
+DE work reg_w [[E1_RBP=hY>c2MD52ZJ41
+l40
+L38
+VRi__0mY1R2EjGenY8TYUh2
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Esumador
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w994151742
+FD:/Modelos VHDL/PICStructural/sumador.vhd
+l0
+L11
+VSG11n:UUlnEeBaU6dKQA=0
+OE;C;5.5e;15
+o-work work
+Astructural
+DE work half_adder Djg?FYd7Re<0i82XR>glU2
+DE work sumador SG11n:UUlnEeBaU6dKQA=0
+l32
+L20
+VA^FSW5Ah>nRHY<W_Pobb61
+OE;C;5.5e;15
+M1 ieee std_logic_1164
+o-work work
+Ctbench_1_config
+DE work pic_core P@i>Y?_e:FTgi77gUM]_T3
+DE work pic_alu Ae`Y?;aRNXD>aMb<iH1V03
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+DA work pic_core structural NKMb[7S<ROLoj[hTSY:Rg2
+DA work pic_core_test tbench_1 S3WL8<7NU@7NEUUEWR:LV2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work pic_core_test 5^5E7=SAdHb@RGk5aYV`d0
+w1047485561
+FD:/Modelos VHDL/PICStructural/bench.vhd
+l0
+L0
+V=dkBFhFQUT6zTGUc_Qd>?2
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+atbench_1
+epic_core_test
+o-work work
+Ctbench_1_config_bubblesort
+DE work pic_core P@i>Y?_e:FTgi77gUM]_T3
+DE work pic_alu Ae`Y?;aRNXD>aMb<iH1V03
+DP arith std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DE work pic_rom BL6VcDCGVYIMHi9MbBzj21
+DA work pic_core structural NKMb[7S<ROLoj[hTSY:Rg2
+DA work pic_core_test tbench_1 S3WL8<7NU@7NEUUEWR:LV2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work pic_core_test 5^5E7=SAdHb@RGk5aYV`d0
+w1047485561
+FD:/Modelos VHDL/PICStructural/bench.vhd
+l0
+L0
+V0KRFLzUnT<?o71X1`0Hbg0
+OE;C;5.5e;15
+M3 ieee std_logic_1164
+M2 util util
+M1 arith std_logic_arith
+atbench_1
+epic_core_test
+o-work work

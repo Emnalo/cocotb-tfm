@@ -29,7 +29,7 @@ async def inject_fault(dut, signal_name, fault_type, fault_value, duration):
     if fault_type == "permanent":
         signal.value = Force(fault_value)
         injected_value = signal.value
-        await Timer(duration-1, units='ns') #Liberar antes de que acabe la simulación
+        await Timer(duration, units='ns') #Liberar antes de que acabe la simulación
         signal.value = Release()  # Liberar al final de la simulación
         dut._log.info(f"Valor inyectado en {signal_name}: {injected_value}")
         # No se libera el fallo, es permanente
@@ -74,8 +74,8 @@ observed_signals = ["result_o", "zero_o"]  # Definir las señales a observar
 
 # Generar funciones de test dinámicamente
 experiments = [
-    #Si inyectamos fallo permanente la duración debe ser 1ns más que la duración total del testbench. 
-    {"signal_name": "alu.a_i", "fault_type": "permanent", "fault_value": 2, "injection_time": 20, "duration": 20},
+    #Si inyectamos fallo permanente la duración debe ser 1ns menos que la duración total del testbench. 
+    {"signal_name": "alu.a_i", "fault_type": "permanent", "fault_value": 1, "injection_time": 20, "duration": 19},
     {"signal_name": "alu.a_i", "fault_type": "transient", "fault_value": 1, "injection_time": 20, "duration": 10},
     {"signal_name": "alu.a_i", "fault_type": "transient", "fault_value": 1, "injection_time": 20, "duration": 10},
     #{"signal_name": "uut.alu.b_i", "fault_type": "permanent", "fault_value": 20, "injection_interval": (0, 100)},

@@ -1,0 +1,46 @@
+Reading C:/modeltech64_10.3c/tcl/vsim/pref.tcl
+
+# 10.3c
+
+# do parsescript.do
+# vsim -c -do "do parsescript.do" 
+# Start time: 12:07:55 on Jul 18,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# //  ModelSim SE-64 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.TbTop
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.mc8051_p
+# Loading work.mc8051_top(struc)
+# Loading work.mc8051_core(struc)
+# Loading work.mc8051_control(struc)
+# Loading work.control_fsm(rtl)
+# Loading work.control_mem(rtl)
+# Loading work.mc8051_alu(struc)
+# Loading work.alumux(rtl)
+# Loading work.alucore(rtl)
+# Loading work.addsub_core(struc)
+# Loading work.addsub_cy(rtl)
+# Loading work.addsub_ovcy(rtl)
+# Loading work.comb_mltplr(rtl)
+# Loading work.comb_divider(rtl)
+# Loading work.dcml_adjust(rtl)
+# Loading work.mc8051_siu(rtl)
+# Loading work.mc8051_tmrctr(rtl)
+# Loading ieee.std_logic_signed(body)
+# Loading work.rom(behavioral)
+# Loading work.ram(behav)
+# Loading work.sramx(behavioral)
+# End time: 12:07:58 on Jul 18,2020, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

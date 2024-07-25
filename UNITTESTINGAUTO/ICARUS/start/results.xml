@@ -1,9 +1,9 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1721594828" />
-    <testcase name="golden_run" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="106" time="0.0018458366394042969" sim_time_ns="40.001" ratio_time="21670.931839834666" />
-    <testcase name="test_experiment_1" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.001384735107421875" sim_time_ns="39.001" ratio_time="28164.95356473829" />
-    <testcase name="test_experiment_2" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.0014452934265136719" sim_time_ns="40.001000000000005" ratio_time="27676.732811613332" />
-    <testcase name="test_experiment_3" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.0012917518615722656" sim_time_ns="40.00099999999999" ratio_time="30966.47366260612" />
+    <property name="random_seed" value="1721924972" />
+    <testcase name="golden_run" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="106" time="0.0017323493957519531" sim_time_ns="40.001" ratio_time="23090.607528764107" />
+    <testcase name="test_experiment_1" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.0014410018920898438" sim_time_ns="40.001" ratio_time="27759.158554599602" />
+    <testcase name="test_experiment_2" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.0013391971588134766" sim_time_ns="40.001000000000005" ratio_time="29869.388339683108" />
+    <testcase name="test_experiment_3" classname="StartTest" file="/home/emnalo/cocotb-tfm/UNITTESTINGAUTO/ICARUS/start/StartTest.py" lineno="116" time="0.0014393329620361328" sim_time_ns="40.00099999999999" ratio_time="27791.3457518635" />
   </testsuite>
 </testsuites>

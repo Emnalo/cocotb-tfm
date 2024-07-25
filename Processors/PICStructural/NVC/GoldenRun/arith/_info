@@ -1,0 +1,27 @@
+m255
+o
+cModel Technology
+dD:\Modelos VHDL\PICStructural
+Pstd_logic_arith
+DP util util DK4HIf<_0FUVUPgXzoT3W2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+w1006802850
+FD:/Modelos VHDL/PICStructural/arith/arith.vhd
+l0
+L22
+VXCCn^XgPUa0o7Vig9M>if0
+OE;C;5.5e;15
+b1
+M2 ieee std_logic_1164
+M1 util util
+o-work arith
+Bbody
+DB work std_logic_arith XCCn^XgPUa0o7Vig9M>if0
+l0
+L22
+VXCCn^XgPUa0o7Vig9M>if0
+OE;C;5.5e;15
+M2 ieee std_logic_1164
+M1 util util
+o-work arith
+nbody
