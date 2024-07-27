@@ -32,13 +32,12 @@ def add_signal(signal_name, final_value, file_name):
     tree.write(file_name, encoding="utf-8", xml_declaration=True)
 
 # Parámetros globales
-observed_signals = []  # Definir las señales a observar
+observed_signals = ["top.ram.ram"]  # Definir las señales a observar
 
 # Golden run (sin fallos)
 @cocotb.test(name="golden_run", skip=False)
 async def golden_run(dut):
     # Esperar un tiempo suficiente para observar las señales
-    await Timer(800, units='ns')
+    await Timer(5, units='us')
     # Observar las señales y guardarlas en goldenrun.xml
     observe_signals(dut, "goldenrun.xml")
-

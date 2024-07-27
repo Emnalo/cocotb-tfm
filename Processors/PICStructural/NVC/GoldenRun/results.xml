@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1722090093" />
+    <testcase name="golden_run" classname="GoldenRun" file="/home/emnalo/cocotb-tfm/Processors/PICStructural/NVC/GoldenRun/GoldenRun.py" lineno="38" time="0.022078990936279297" sim_time_ns="9000.000001" ratio_time="407627.3244087241" />
+  </testsuite>
+</testsuites>

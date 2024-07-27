@@ -1,28 +1,48 @@
-SIM_ARGS += --wave=nvc.vcd --format=vcd
+SIM_ARGS += --wave=nvc.vcd --format=vcd --dump-arrays
 TOPLEVEL_LANG=vhdl
-VHDL_SOURCES +=$(shell pwd)/bench.vhd
-VHDL_SOURCES +=$(shell pwd)/fadr_mux.vhd
-VHDL_SOURCES +=$(shell pwd)/half_adder.vhd
-VHDL_SOURCES +=$(shell pwd)/operadores.vhd
-VHDL_SOURCES +=$(shell pwd)/operadores_y_puertas.vhd
-VHDL_SOURCES +=$(shell pwd)/pic_alu.vhd
-VHDL_SOURCES +=$(shell pwd)/pic_core.vhd
-VHDL_SOURCES +=$(shell pwd)/pic_ctrl.vhd
-VHDL_SOURCES +=$(shell pwd)/pic_rom.vhd
-VHDL_SOURCES +=$(shell pwd)/puertas.vhd
-VHDL_SOURCES +=$(shell pwd)/puertas_y_operadores.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_8rst.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_8t.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_cons.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_file.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_fsr.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_inst.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_io.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_pc.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_s.vhd
-VHDL_SOURCES +=$(shell pwd)/reg_w.vhd
-VHDL_SOURCES +=$(shell pwd)/sumador.vhd
-TOPLEVEL =bench
+VHDL_SOURCES += $(shell pwd)/source/mc8051_p.vhd
+
+VHDL_SOURCES += $(shell pwd)/source/addsub_cy_.vhd
+VHDL_SOURCES += $(shell pwd)/source/addsub_cy_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/addsub_ovcy_.vhd
+VHDL_SOURCES += $(shell pwd)/source/addsub_ovcy_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/alumux_.vhd
+VHDL_SOURCES += $(shell pwd)/source/alumux_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/comb_divider_.vhd
+VHDL_SOURCES += $(shell pwd)/source/comb_divider_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/comb_mltplr_.vhd
+VHDL_SOURCES += $(shell pwd)/source/comb_mltplr_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/dcml_adjust_.vhd
+VHDL_SOURCES += $(shell pwd)/source/dcml_adjust_rtl.vhd
+
+VHDL_SOURCES += $(shell pwd)/source/addsub_core_.vhd
+VHDL_SOURCES += $(shell pwd)/source/addsub_core_struc.vhd
+VHDL_SOURCES += $(shell pwd)/source/alucore_.vhd
+VHDL_SOURCES += $(shell pwd)/source/alucore_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/control_fsm_.vhd
+VHDL_SOURCES += $(shell pwd)/source/control_fsm_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/control_mem_.vhd
+VHDL_SOURCES += $(shell pwd)/source/control_mem_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_alu_.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_alu_struc.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_control_.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_control_struc.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_core.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_core_struc.vhd
+
+VHDL_SOURCES += $(shell pwd)/source/mc8051_top_.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_top_struc_Xilinx.vhd
+VHDL_SOURCES += $(shell pwd)/source/RAM.vhd
+VHDL_SOURCES += $(shell pwd)/source/ROM.vhd
+VHDL_SOURCES += $(shell pwd)/source/SRAMX.vhd
+
+VHDL_SOURCES += $(shell pwd)/source/mc8051_siu_.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_siu_rtl.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_tmrctr_.vhd
+VHDL_SOURCES += $(shell pwd)/source/mc8051_tmrctr_rtl.vhd
+
+VHDL_SOURCES += $(shell pwd)/source/mc8051_tb.vhd
+TOPLEVEL = mc8051_tb
 MODULE =GoldenRun
 include $(shell cocotb-config --makefiles)/Makefile.sim
 #make SIM=nvc -w
