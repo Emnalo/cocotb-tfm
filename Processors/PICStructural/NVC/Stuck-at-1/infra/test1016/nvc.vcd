@@ -1,0 +1,706 @@
+$date
+	Sun Jul 28 21:49:53 2024
+
+$end
+$version
+	nvc 1.12.0
+$end
+$timescale
+	1fs
+$end
+$attrbegin misc 03 /home/emnalo/cocotb-tfm/Processors/PICStructural/NVC/Stuck-at-1/infra/source/bench.vhd 1 $end
+$attrbegin misc 04 1 30 $end
+$scope vhdl_architecture pic_core_test $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! t_clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " t_reset $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 # t_port_a[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 $ t_port_b[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 % t_port_c[7:0] $end
+$attrbegin misc 04 1 31 $end
+$scope vhdl_architecture top $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 & port_a[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ' port_b[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ( port_c[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) bus_a[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 * bus_b[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + bus_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 9 , pic_rom_addr[8:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 - pic_rom_data[11:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 . carry_new $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 / carry_old $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 0 zero $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 4 1 alu_op[3:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 2 fsr[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 3 file_addr[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 4 inst[11:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 5 port_a_tri[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 6 port_b_tri[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 7 port_c_tri[7:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 8 port_a_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 9 port_b_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 : port_c_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ; port_a_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 < port_b_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 = port_c_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 > tris_a_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ? tris_b_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 @ tris_c_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 A w_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 B w_a_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 C w_b_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 D pc_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 E pc_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 F pc_push $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 G pc_pop $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 H pc_load $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 I fsr_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 J fsr_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 K rtcc_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 L rtcc_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 M file_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 N file_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 O inst_skip $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 P imm_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 Q status_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 R status_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 S carry_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 T zero_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 U const_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 V const_01 $end
+$attrbegin misc 03 /home/emnalo/cocotb-tfm/Processors/PICStructural/NVC/Stuck-at-1/infra/source/pic_core.vhd 2 $end
+$attrbegin misc 04 2 75 $end
+$scope vhdl_architecture rom $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 9 , addr[8:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 - data[11:0] $end
+$upscope $end
+$attrbegin misc 04 2 82 $end
+$scope vhdl_architecture port_a_reg $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 8 out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ; write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 5 inout_sel[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 W dataport[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 X output_value[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 Y input_value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 82 $end
+$scope vhdl_architecture port_b_reg $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 9 out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 < write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 6 inout_sel[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 Z dataport[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 [ output_value[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 \ input_value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 82 $end
+$scope vhdl_architecture port_c_reg $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 : out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 = write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 7 inout_sel[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ] dataport[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ^ output_value[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 _ input_value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 102 $end
+$scope vhdl_architecture working_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 B out_a_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 C out_b_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 A write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_a_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 * data_b_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ` value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 114 $end
+$scope vhdl_architecture io_conf_port_a $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 > write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 5 data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 a value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 114 $end
+$scope vhdl_architecture io_conf_port_b $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ? write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 6 data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 b value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 114 $end
+$scope vhdl_architecture io_conf_port_c $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 @ write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 7 data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 c value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 156 $end
+$scope vhdl_architecture instruction_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 O skip $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 P out_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 - inst_in[11:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 4 inst_out[11:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 * imm_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 d value[11:0] $end
+$upscope $end
+$attrbegin misc 04 2 134 $end
+$scope vhdl_architecture fsr_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 J out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 I write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 2 fsr_out[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 e value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 94 $end
+$scope vhdl_architecture file_address_mux $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 4 inst_5[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 2 fsr[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 3 file_addr[4:0] $end
+$upscope $end
+$attrbegin misc 04 2 145 $end
+$scope vhdl_architecture register_file $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 M write_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 N out_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 3 address[4:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 f data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 g r8[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 h r9[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 i r10[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 j r11[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 k r12[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 l r13[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 m r14[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 n r15[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 o r16[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 p r17[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 q r18[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 r r19[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 s r20[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 t r21[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 u r22[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 v r23[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 w r24[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 x r25[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 y r26[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 z r27[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 { r28[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 | r29[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 } r30[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ~ r31[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 168 $end
+$scope vhdl_architecture program_counter $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 E out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 D write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 4 addr_in[8:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 9 , addr_out[8:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 F push $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 G pop $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 H load $end
+$attrbegin misc 02 UNSIGNED 1028 $end
+$var logic 9 !! pc[8:0] $end
+$attrbegin misc 02 UNSIGNED 1028 $end
+$var logic 9 "! stack1[8:0] $end
+$attrbegin misc 02 UNSIGNED 1028 $end
+$var logic 9 #! stack2[8:0] $end
+$upscope $end
+$attrbegin misc 04 2 184 $end
+$scope vhdl_architecture status_register $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 " reset $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 Q out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 R write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 / carry_out $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 . carry_in $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 0 zero_in $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 S carry_wr $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 T zero_wr $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 $! value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 211 $end
+$scope vhdl_architecture constants_generator $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 U out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 V const_01 $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 * data_out[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 124 $end
+$scope vhdl_architecture rtcc $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ! clock $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 L out_en $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 K write_en $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + data_in[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) data_out[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 %! value[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 200 $end
+$scope vhdl_architecture alu $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 4 1 operation[3:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 ) a[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 * b[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 + res[7:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 / carry_in $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 . carry_out $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 0 zero $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 &! temp_b[7:0] $end
+$attrbegin misc 02 UNSIGNED 1028 $end
+$var logic 1 '! temp_carry[0:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 9 (! result[8:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 9 )! temp_c[8:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 *! bit_pattern[7:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 8 +! bit_test[7:0] $end
+$upscope $end
+$attrbegin misc 04 2 35 $end
+$scope vhdl_architecture controller $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 12 4 inst[11:0] $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 5 3 file_addr[4:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 0 zero $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 4 1 alu_op[3:0] $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 > tris_a_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ? tris_b_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 @ tris_c_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ; port_a_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 < port_b_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 = port_c_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 8 port_a_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 9 port_b_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 : port_c_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 A w_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 B w_a_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 C w_b_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 D pc_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 E pc_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 F pc_push $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 G pc_pop $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 H pc_load $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 I fsr_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 J fsr_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 K rtcc_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 L rtcc_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 M file_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 N file_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 O inst_skip $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 P imm_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 Q status_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 R status_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 S carry_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 T zero_wen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 U const_oen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 V const_01 $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 ,! file_moen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 -! file_mwen $end
+$attrbegin misc 02 STD_LOGIC 1030 $end
+$var logic 1 .! dest $end
+$attrbegin misc 02 STD_LOGIC_VECTOR 1029 $end
+$var logic 2 /! tris_sel[1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b01 /!
+0.!
+0-!
+0,!
+b0000000X +!
+b00000001 *!
+bUUUUUUUUU )!
+bX00001001 (!
+0'!
+b00001001 &!
+bUUUUUUUU %!
+bUUUUUUUU $!
+bUUUUUUUUU #!
+bUUUUUUUUU "!
+bXXXXXXXXX !!
+bUUUUUUUU ~
+bUUUUUUUU }
+bUUUUUUUU |
+bUUUUUUUU {
+bUUUUUUUU z
+bUUUUUUUU y
+bUUUUUUUU x
+bUUUUUUUU w
+bUUUUUUUU v
+bUUUUUUUU u
+bUUUUUUUU t
+bUUUUUUUU s
+bUUUUUUUU r
+bUUUUUUUU q
+bUUUUUUUU p
+bUUUUUUUU o
+bUUUUUUUU n
+bUUUUUUUU m
+bUUUUUUUU l
+bUUUUUUUU k
+bUUUUUUUU j
+bUUUUUUUU i
+bUUUUUUUU h
+bUUUUUUUU g
+bZZZZZZZZ f
+bUUUUUUUU e
+b110000001001 d
+bUUUUUUUU c
+bUUUUUUUU b
+bUUUUUUUU a
+bUUUUUUUU `
+bZZZZZZZZ _
+bUUUUUUUU ^
+bZZZZZZZZ ]
+bZZZZZZZZ \
+bUUUUUUUU [
+bZZZZZZZZ Z
+bZZZZZZZZ Y
+bUUUUUUUU X
+bZZZZZZZZ W
+0V
+0U
+0T
+0S
+0R
+0Q
+1P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+1A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+bUUUUUUUU 7
+bUUUUUUUU 6
+bUUUUUUUU 5
+b110000001001 4
+b01001 3
+bUUUUU 2
+b1110 1
+00
+u/
+x.
+b110000001001 -
+bXXXXXXXXX ,
+b00001001 +
+b00001001 *
+bZZZZZZZZ )
+bZZZZZZZZ (
+bZZZZZZZZ '
+bZZZZZZZZ &
+bZZZZZZZZ %
+bZZZZZZZZ $
+bZZZZZZZZ #
+1"
+1!
+$end
+#5000000
+0"
+bZZZZZZZZ *
+bZZZZZZZZ +
+b000000000 ,
+z.
+0/
+b---- 1
+bUUUUU 3
+b000000000000 4
+b11111111 5
+b11111111 6
+b11111111 7
+0A
+0P
+b11111111 a
+b11111111 b
+b11111111 c
+b000000000000 d
+b000000000 !!
+b00000000 $!
+bZZZZZZZZ &!
+bZZZZZZZZZ (!
+bXXXXXXXX *!
+bXXXXXXXX +!
+b00 /!
+#1000000000
+1"
+#9000000001

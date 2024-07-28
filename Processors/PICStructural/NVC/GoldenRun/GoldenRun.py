@@ -41,4 +41,3 @@ async def golden_run(dut):
     await Timer(9, units='us')
     # Observar las señales y guardarlas en goldenrun.xml
     observe_signals(dut, "goldenrun.xml")
-

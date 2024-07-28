@@ -1,0 +1,111 @@
+# do sim_build/runsim.do
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap -c 
+# Copying /home/emnalo/Downloads/QUESTA-CORE-PRIME_2022.4_RHELx86/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64/../modelsim.ini to modelsim.ini
+# QuestaSim-64 vmap 2022.4 Lib Mapping Utility 2022.10 Oct 18 2022
+# vmap work sim_build/work 
+# Modifying modelsim.ini
+# QuestaSim-64 vcom 2022.4 Compiler 2022.10 Oct 18 2022
+# Start time: 22:59:41 on Jul 28,2024
+# vcom -work work "+acc" /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/bench.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/fadr_mux.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/pic_alu.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/pic_core.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/pic_ctrl.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/pic_rom.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_8rst.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_8t.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_cons.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_file.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_fsr.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_inst.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_io.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_pc.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_s.vhd /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VHDL/Stuck-at-1/test27/../source/reg_w.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pic_core_test
+# -- Compiling architecture tbench_1 of pic_core_test
+# -- Compiling entity fadr_mux
+# -- Compiling architecture dataflow of fadr_mux
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pic_alu
+# -- Compiling architecture dataflow of pic_alu
+# -- Compiling entity pic_core
+# -- Compiling architecture structural of pic_core
+# -- Compiling entity pic_ctrl
+# -- Compiling architecture mixed of pic_ctrl
+# -- Compiling entity PIC_ROM
+# -- Compiling architecture bubblesort of PIC_ROM
+# -- Compiling entity reg_8rst
+# -- Compiling architecture mixed of reg_8rst
+# -- Compiling entity reg_8t
+# -- Compiling architecture mixed of reg_8t
+# -- Compiling entity reg_cons
+# -- Compiling architecture dataflow of reg_cons
+# -- Compiling entity reg_file
+# -- Compiling architecture mixed of reg_file
+# -- Compiling entity reg_fsr
+# -- Compiling architecture mixed of reg_fsr
+# -- Compiling entity reg_inst
+# -- Compiling architecture mixed of reg_inst
+# -- Compiling entity reg_io
+# -- Compiling architecture mixed of reg_io
+# -- Compiling entity reg_pc
+# -- Compiling architecture mixed of reg_pc
+# -- Compiling entity reg_s
+# -- Compiling architecture mixed of reg_s
+# -- Compiling entity reg_w
+# -- Compiling architecture mixed of reg_w
+# End time: 22:59:41 on Jul 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish exit -t 1ps -foreign "cocotb_init /home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbfli_modelsim.so" sim_build/work.pic_core_test 
+# Start time: 22:59:41 on Jul 28,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2022.4 linux_x86_64 Oct 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.pic_core_test(tbench_1)#1
+# Loading work.pic_core(structural)#1
+# Loading ieee.numeric_std(body)
+# Loading work.pic_rom(bubblesort)#1
+# Loading work.reg_io(mixed)#1
+# Loading work.reg_w(mixed)#1
+# Loading work.reg_8rst(mixed)#1
+# Loading work.reg_inst(mixed)#1
+# Loading work.reg_fsr(mixed)#1
+# Loading work.fadr_mux(dataflow)#1
+# Loading work.reg_file(mixed)#1
+# Loading work.reg_pc(mixed)#1
+# Loading work.reg_s(mixed)#1
+# Loading work.reg_cons(dataflow)#1
+# Loading work.reg_8t(mixed)#1
+# Loading work.pic_alu(dataflow)#1
+# Loading work.pic_ctrl(mixed)#1
+# Loading /home/emnalo/.local/lib/python3.10/site-packages/cocotb/libs/libcocotbfli_modelsim.so
+#      -.--ns INFO     gpi                                ..ib/fli/FliImpl.cpp:1150 in cocotb_init                     cocotb_init called
+#      -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+#      -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       FLI registered
+#      0.00ns INFO     cocotb                             Running on ModelSim for Questa-64 version 2022.4 2022.10
+#      0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+#      0.00ns WARNING  gpi                                FLI: Other iterator types not implemented yet
+#      0.00ns INFO     cocotb                             Seeding Python random module with 1722200382
+#      0.00ns INFO     cocotb.regression                  running ParametricTest.dynamic_test (1/1)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pic_core_test/top/rom
+# Inyectando fallo en la señal top.alu.a[0] con tipo permanent y valor 1
+#   9000.00ns INFO     cocotb.regression                  ParametricTest.dynamic_test passed
+#   9000.00ns INFO     cocotb.regression                  **************************************************************************************
+#                                                         ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+#                                                         **************************************************************************************
+#                                                         ** ParametricTest.dynamic_test    PASS        9000.00           0.02     384637.82  **
+#                                                         **************************************************************************************
+#                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0               9000.00           0.03     329292.20  **
+#                                                         **************************************************************************************
+#                                                         
+# Simulation halt requested by foreign interface.
+# End time: 22:59:42 on Jul 28,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2, Suppressed Warnings: 1
