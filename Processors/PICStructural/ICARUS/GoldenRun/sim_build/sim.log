@@ -1,0 +1,17 @@
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:79   in set_program_name_in_venv        Did not detect Python virtual environment. Using system-wide Python interpreter
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Icarus Verilog version 11.0 (stable)
+     0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
+     0.00ns WARNING  gpi                                vpi_iterate returned NULL for type vpiInstance for object NULL
+     0.00ns INFO     cocotb                             Seeding Python random module with 1722417564
+     0.00ns INFO     cocotb.regression                  running GoldenRun.golden_run (1/1)
+  9000.00ns INFO     cocotb.regression                  GoldenRun.golden_run passed
+  9000.00ns INFO     cocotb.regression                  **************************************************************************************
+                                                        ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        **************************************************************************************
+                                                        ** GoldenRun.golden_run           PASS        9000.00           0.01    1332136.08  **
+                                                        **************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0               9000.00           0.01     897604.09  **
+                                                        **************************************************************************************
+                                                        
+VCD info: dumpfile pic_core_test.vcd opened for output.

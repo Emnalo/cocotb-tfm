@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
     valor=[True, False],
 )
 async def FactoryTest(dut, inicio, duracion, valor):
-    # Generate clock
+    # Generate reloj
     cocotb.start_soon(Clock(dut.clk, 10, units='ns').start())
 
     signal = dut.bool_signal

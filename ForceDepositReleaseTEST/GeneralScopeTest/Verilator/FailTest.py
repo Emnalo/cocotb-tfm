@@ -5,19 +5,19 @@ from cocotb.handle import Force,Release,Deposit
 
 @cocotb.test()
 async def FailTest(dut):
-    # Generate clock
+    # Genera señal de reloj
     cocotb.start_soon(Clock(dut.clk, 10, units='ns').start())
-    # Apply initial values
+    # Aplica valores iniciales
     dut.din.value = 0b0001
     dut.rst.value = 1
     await Timer(10, units='ns')
     dut.rst.value = 0
     await Timer(10, units='ns')
-    # Simulate normal operation
-    dut.enable.value = 1  # Set enable to start operation
+    # Simula operacion normal
+    dut.enable.value = 1  # Activa señal enable para empezar
     
-    # Wait for state to change from IDLE to WORKING
-    while dut.state.value != 1:  # Assuming WORKING state is 1
+    # Espera a cambio de estado de IDLE a WORKING
+    while dut.state.value != 1:  # WORKING = 1
         await RisingEdge(dut.clk)
     dut._log.info("State transitioned to WORKING")
     
@@ -48,7 +48,7 @@ async def FailTest(dut):
         assert final_value == expected_value, f"{description} ({method}) failed. Expected {expected_value}, got {final_value}"
         dut._log.info(f"{description} ({method}) passed. Signal value: {final_value}")
 
-    # Injecting faults and checking different signals
+    # Inyectando fallos y comprobando en distintas señales
 #    await inject_and_check(dut.din, 0b0010, 0b0001, "Fault injection in din")
 #    await inject_and_check(dut.dout, 0b0000, 0b0001, "Fault injection in dout")
     

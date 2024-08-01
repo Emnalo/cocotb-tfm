@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1722093974" />
-    <testcase name="golden_run" classname="GoldenRun" file="/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/NVC/GoldenRun/GoldenRun.py" lineno="38" time="0.01710033416748047" sim_time_ns="5000.000001" ratio_time="292391.94696606864" />
+    <property name="random_seed" value="1722437796" />
+    <testcase name="golden_run" classname="GoldenRun" file="/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/NVC/GoldenRun/GoldenRun.py" lineno="67" time="0.012406587600708008" sim_time_ns="5000.000001" ratio_time="403011.70329177903" />
   </testsuite>
 </testsuites>

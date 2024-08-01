@@ -1,0 +1,252 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11e vcom 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun
+T_opt
+!s110 1722439149
+VS45>5zK@9L9<:e51Mh1?X2
+04 5 10 work bench test_bench 1
+=1-000ae431a4f1-66aa55eb-bf1fe-706c
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work sim_build/work
+tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+Ebench
+Z2 w1721896687
+Z3 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z6 8/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/Test_Bench.vhd
+Z7 F/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/Test_Bench.vhd
+l0
+L7 1
+VTJ@b[WDW>E;AAR@V`MQPj1
+!s100 B;aXW2o^;9RmO8g9CF`ST0
+Z8 OL;C;2022.4;75
+32
+Z9 !s110 1722439147
+!i10b 1
+Z10 !s108 1722439146.000000
+Z11 !s90 -work|work|+acc|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/Test_Bench.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/components.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_cpu.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_ram.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_top.vhd|
+Z12 !s107 /home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_top.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_ram.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_cpu.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/components.vhd|/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/Test_Bench.vhd|
+!i113 0
+Z13 o-work work +acc
+Z14 tExplicit 1 CvgOpt 0
+Atest_bench
+R3
+R4
+R5
+DEx4 work 5 bench 0 22 TJ@b[WDW>E;AAR@V`MQPj1
+!i122 0
+l28
+L10 42
+VeQQhk5CkP6hjLae;=fFSk0
+!s100 l;L^_JDWHI?N=<8jH=2lG3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Pcomponents
+Z15 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+R4
+R5
+!i122 0
+Z16 w1721896688
+R1
+Z17 8/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/components.vhd
+Z18 F/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/components.vhd
+l0
+L5 2801
+V6eFG5<7ALGN]J:LWIk?Hc2
+!s100 oURz6U[?YoToT8RX3_CNP0
+R8
+32
+b1
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Bbody
+Z19 DPx4 work 10 components 0 22 6eFG5<7ALGN]J:LWIk?Hc2
+R15
+R4
+R5
+!i122 0
+l0
+L2808 213
+VA`f78WZVSY6maUTGi@?^21
+!s100 Zh1DM:2@VY2aLO^?7]2=[0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eusimplez_cpu
+R2
+R15
+R19
+R3
+R4
+R5
+!i122 0
+R1
+Z20 8/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_cpu.vhd
+Z21 F/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_cpu.vhd
+l0
+Z22 L55 1
+VX^WJfB72QKKO7<`7=F09]1
+!s100 IgeE[QnSk@YUYG9P[`1Hg2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Afsm
+R15
+R19
+R3
+R4
+R5
+DEx4 work 12 usimplez_cpu 0 22 X^WJfB72QKKO7<`7=F09]1
+!i122 0
+l100
+L73 152
+VUboRa:VZ5E55g9Qi=lhGe1
+!s100 cK:5I1aRX;ReASd4ZDT1W0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eusimplez_ram
+R2
+R15
+R19
+R3
+R4
+R5
+!i122 0
+R1
+Z23 8/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_ram.vhd
+Z24 F/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_ram.vhd
+l0
+L56 1
+VE]Y72Ebo@>>aKFz_8m_860
+!s100 ^Q?cml_i[>KA2lbV>PkDf0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+R15
+R19
+R3
+R4
+R5
+DEx4 work 12 usimplez_ram 0 22 E]Y72Ebo@>>aKFz_8m_860
+!i122 0
+l144
+L69 91
+V<S7_2AXzZ8f[lj`ARmgAL0
+!s100 D^f6z1;@RfLjlLdIM5zUg0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eusimplez_top
+R2
+R15
+R19
+R3
+R4
+R5
+!i122 0
+R1
+Z25 8/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_top.vhd
+Z26 F/home/emnalo/cocotb-tfm/Processors/usimplez_16_bits/QUESTA-VHDL/GoldenRun/source/usimplez_top.vhd
+l0
+R22
+VWHMJn036XTfRhCU;Kj6GY0
+!s100 CRSQ_;GT?d9_[o`M=l?b22
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Astr
+R15
+R19
+R3
+R4
+R5
+DEx4 work 12 usimplez_top 0 22 WHMJn036XTfRhCU;Kj6GY0
+!i122 0
+l99
+L67 60
+V3_9[F=[3<b1eJ`0aGD^DA2
+!s100 LYci]EomD;T7cWllb>@@I3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

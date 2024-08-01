@@ -1,0 +1,5030 @@
+{
+    "exp": {
+        "test1": {
+            "signal_name": "t_clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test2": {
+            "signal_name": "t_port_a[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test3": {
+            "signal_name": "t_port_a[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test4": {
+            "signal_name": "t_port_a[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test5": {
+            "signal_name": "t_port_a[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test6": {
+            "signal_name": "t_port_a[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test7": {
+            "signal_name": "t_port_a[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test8": {
+            "signal_name": "t_port_a[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test9": {
+            "signal_name": "t_port_a[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test10": {
+            "signal_name": "t_port_b[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test11": {
+            "signal_name": "t_port_b[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test12": {
+            "signal_name": "t_port_b[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test13": {
+            "signal_name": "t_port_b[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test14": {
+            "signal_name": "t_port_b[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test15": {
+            "signal_name": "t_port_b[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test16": {
+            "signal_name": "t_port_b[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test17": {
+            "signal_name": "t_port_b[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test18": {
+            "signal_name": "t_port_c[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test19": {
+            "signal_name": "t_port_c[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test20": {
+            "signal_name": "t_port_c[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test21": {
+            "signal_name": "t_port_c[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test22": {
+            "signal_name": "t_port_c[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test23": {
+            "signal_name": "t_port_c[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test24": {
+            "signal_name": "t_port_c[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test25": {
+            "signal_name": "t_port_c[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test26": {
+            "signal_name": "t_reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test27": {
+            "signal_name": "top.alu.a[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test28": {
+            "signal_name": "top.alu.a[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test29": {
+            "signal_name": "top.alu.a[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test30": {
+            "signal_name": "top.alu.a[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test31": {
+            "signal_name": "top.alu.a[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test32": {
+            "signal_name": "top.alu.a[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test33": {
+            "signal_name": "top.alu.a[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test34": {
+            "signal_name": "top.alu.a[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test35": {
+            "signal_name": "top.alu.b[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test36": {
+            "signal_name": "top.alu.b[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test37": {
+            "signal_name": "top.alu.b[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test38": {
+            "signal_name": "top.alu.b[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test39": {
+            "signal_name": "top.alu.b[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test40": {
+            "signal_name": "top.alu.b[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test41": {
+            "signal_name": "top.alu.b[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test42": {
+            "signal_name": "top.alu.b[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test43": {
+            "signal_name": "top.alu.bit_pattern[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test44": {
+            "signal_name": "top.alu.bit_pattern[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test45": {
+            "signal_name": "top.alu.bit_pattern[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test46": {
+            "signal_name": "top.alu.bit_pattern[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test47": {
+            "signal_name": "top.alu.bit_pattern[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test48": {
+            "signal_name": "top.alu.bit_pattern[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test49": {
+            "signal_name": "top.alu.bit_pattern[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test50": {
+            "signal_name": "top.alu.bit_pattern[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test51": {
+            "signal_name": "top.alu.bit_test[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test52": {
+            "signal_name": "top.alu.bit_test[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test53": {
+            "signal_name": "top.alu.bit_test[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test54": {
+            "signal_name": "top.alu.bit_test[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test55": {
+            "signal_name": "top.alu.bit_test[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test56": {
+            "signal_name": "top.alu.bit_test[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test57": {
+            "signal_name": "top.alu.bit_test[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test58": {
+            "signal_name": "top.alu.bit_test[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test59": {
+            "signal_name": "top.alu.carry_in",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test60": {
+            "signal_name": "top.alu.carry_out",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test61": {
+            "signal_name": "top.alu.operation[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test62": {
+            "signal_name": "top.alu.operation[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test63": {
+            "signal_name": "top.alu.operation[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test64": {
+            "signal_name": "top.alu.operation[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test65": {
+            "signal_name": "top.alu.res[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test66": {
+            "signal_name": "top.alu.res[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test67": {
+            "signal_name": "top.alu.res[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test68": {
+            "signal_name": "top.alu.res[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test69": {
+            "signal_name": "top.alu.res[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test70": {
+            "signal_name": "top.alu.res[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test71": {
+            "signal_name": "top.alu.res[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test72": {
+            "signal_name": "top.alu.res[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test73": {
+            "signal_name": "top.alu.result[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test74": {
+            "signal_name": "top.alu.result[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test75": {
+            "signal_name": "top.alu.result[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test76": {
+            "signal_name": "top.alu.result[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test77": {
+            "signal_name": "top.alu.result[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test78": {
+            "signal_name": "top.alu.result[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test79": {
+            "signal_name": "top.alu.result[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test80": {
+            "signal_name": "top.alu.result[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test81": {
+            "signal_name": "top.alu.result[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test82": {
+            "signal_name": "top.alu.temp_b[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test83": {
+            "signal_name": "top.alu.temp_b[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test84": {
+            "signal_name": "top.alu.temp_b[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test85": {
+            "signal_name": "top.alu.temp_b[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test86": {
+            "signal_name": "top.alu.temp_b[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test87": {
+            "signal_name": "top.alu.temp_b[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test88": {
+            "signal_name": "top.alu.temp_b[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test89": {
+            "signal_name": "top.alu.temp_b[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test90": {
+            "signal_name": "top.alu.temp_c[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test91": {
+            "signal_name": "top.alu.temp_c[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test92": {
+            "signal_name": "top.alu.temp_c[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test93": {
+            "signal_name": "top.alu.temp_c[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test94": {
+            "signal_name": "top.alu.temp_c[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test95": {
+            "signal_name": "top.alu.temp_c[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test96": {
+            "signal_name": "top.alu.temp_c[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test97": {
+            "signal_name": "top.alu.temp_c[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test98": {
+            "signal_name": "top.alu.temp_c[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test99": {
+            "signal_name": "top.alu.temp_carry[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test100": {
+            "signal_name": "top.alu.zero",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test101": {
+            "signal_name": "top.alu_op[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test102": {
+            "signal_name": "top.alu_op[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test103": {
+            "signal_name": "top.alu_op[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test104": {
+            "signal_name": "top.alu_op[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test105": {
+            "signal_name": "top.bus_a[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test106": {
+            "signal_name": "top.bus_a[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test107": {
+            "signal_name": "top.bus_a[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test108": {
+            "signal_name": "top.bus_a[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test109": {
+            "signal_name": "top.bus_a[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test110": {
+            "signal_name": "top.bus_a[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test111": {
+            "signal_name": "top.bus_a[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test112": {
+            "signal_name": "top.bus_a[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test113": {
+            "signal_name": "top.bus_b[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test114": {
+            "signal_name": "top.bus_b[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test115": {
+            "signal_name": "top.bus_b[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test116": {
+            "signal_name": "top.bus_b[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test117": {
+            "signal_name": "top.bus_b[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test118": {
+            "signal_name": "top.bus_b[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test119": {
+            "signal_name": "top.bus_b[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test120": {
+            "signal_name": "top.bus_b[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test121": {
+            "signal_name": "top.bus_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test122": {
+            "signal_name": "top.bus_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test123": {
+            "signal_name": "top.bus_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test124": {
+            "signal_name": "top.bus_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test125": {
+            "signal_name": "top.bus_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test126": {
+            "signal_name": "top.bus_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test127": {
+            "signal_name": "top.bus_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test128": {
+            "signal_name": "top.bus_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test129": {
+            "signal_name": "top.carry_new",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test130": {
+            "signal_name": "top.carry_old",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test131": {
+            "signal_name": "top.carry_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test132": {
+            "signal_name": "top.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test133": {
+            "signal_name": "top.const_01",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test134": {
+            "signal_name": "top.const_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test135": {
+            "signal_name": "top.constants_generator.const_01",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test136": {
+            "signal_name": "top.constants_generator.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test137": {
+            "signal_name": "top.constants_generator.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test138": {
+            "signal_name": "top.constants_generator.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test139": {
+            "signal_name": "top.constants_generator.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test140": {
+            "signal_name": "top.constants_generator.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test141": {
+            "signal_name": "top.constants_generator.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test142": {
+            "signal_name": "top.constants_generator.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test143": {
+            "signal_name": "top.constants_generator.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test144": {
+            "signal_name": "top.constants_generator.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test145": {
+            "signal_name": "top.controller.alu_op[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test146": {
+            "signal_name": "top.controller.alu_op[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test147": {
+            "signal_name": "top.controller.alu_op[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test148": {
+            "signal_name": "top.controller.alu_op[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test149": {
+            "signal_name": "top.controller.carry_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test150": {
+            "signal_name": "top.controller.const_01",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test151": {
+            "signal_name": "top.controller.const_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test152": {
+            "signal_name": "top.controller.dest",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test153": {
+            "signal_name": "top.controller.file_addr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test154": {
+            "signal_name": "top.controller.file_addr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test155": {
+            "signal_name": "top.controller.file_addr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test156": {
+            "signal_name": "top.controller.file_addr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test157": {
+            "signal_name": "top.controller.file_addr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test158": {
+            "signal_name": "top.controller.file_moen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test159": {
+            "signal_name": "top.controller.file_mwen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test160": {
+            "signal_name": "top.controller.file_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test161": {
+            "signal_name": "top.controller.file_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test162": {
+            "signal_name": "top.controller.fsr_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test163": {
+            "signal_name": "top.controller.fsr_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test164": {
+            "signal_name": "top.controller.imm_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test165": {
+            "signal_name": "top.controller.inst[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test166": {
+            "signal_name": "top.controller.inst[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test167": {
+            "signal_name": "top.controller.inst[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test168": {
+            "signal_name": "top.controller.inst[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test169": {
+            "signal_name": "top.controller.inst[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test170": {
+            "signal_name": "top.controller.inst[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test171": {
+            "signal_name": "top.controller.inst[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test172": {
+            "signal_name": "top.controller.inst[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test173": {
+            "signal_name": "top.controller.inst[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test174": {
+            "signal_name": "top.controller.inst[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test175": {
+            "signal_name": "top.controller.inst[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test176": {
+            "signal_name": "top.controller.inst[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test177": {
+            "signal_name": "top.controller.inst_skip",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test178": {
+            "signal_name": "top.controller.pc_load",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test179": {
+            "signal_name": "top.controller.pc_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test180": {
+            "signal_name": "top.controller.pc_pop",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test181": {
+            "signal_name": "top.controller.pc_push",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test182": {
+            "signal_name": "top.controller.pc_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test183": {
+            "signal_name": "top.controller.port_a_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test184": {
+            "signal_name": "top.controller.port_a_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test185": {
+            "signal_name": "top.controller.port_b_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test186": {
+            "signal_name": "top.controller.port_b_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test187": {
+            "signal_name": "top.controller.port_c_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test188": {
+            "signal_name": "top.controller.port_c_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test189": {
+            "signal_name": "top.controller.rtcc_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test190": {
+            "signal_name": "top.controller.rtcc_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test191": {
+            "signal_name": "top.controller.status_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test192": {
+            "signal_name": "top.controller.status_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test193": {
+            "signal_name": "top.controller.tris_a_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test194": {
+            "signal_name": "top.controller.tris_b_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test195": {
+            "signal_name": "top.controller.tris_c_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test196": {
+            "signal_name": "top.controller.tris_sel[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test197": {
+            "signal_name": "top.controller.tris_sel[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test198": {
+            "signal_name": "top.controller.w_a_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test199": {
+            "signal_name": "top.controller.w_b_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test200": {
+            "signal_name": "top.controller.w_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test201": {
+            "signal_name": "top.controller.zero",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test202": {
+            "signal_name": "top.controller.zero_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test203": {
+            "signal_name": "top.file_addr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test204": {
+            "signal_name": "top.file_addr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test205": {
+            "signal_name": "top.file_addr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test206": {
+            "signal_name": "top.file_addr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test207": {
+            "signal_name": "top.file_addr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test208": {
+            "signal_name": "top.file_address_mux.file_addr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test209": {
+            "signal_name": "top.file_address_mux.file_addr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test210": {
+            "signal_name": "top.file_address_mux.file_addr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test211": {
+            "signal_name": "top.file_address_mux.file_addr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test212": {
+            "signal_name": "top.file_address_mux.file_addr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test213": {
+            "signal_name": "top.file_address_mux.fsr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test214": {
+            "signal_name": "top.file_address_mux.fsr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test215": {
+            "signal_name": "top.file_address_mux.fsr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test216": {
+            "signal_name": "top.file_address_mux.fsr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test217": {
+            "signal_name": "top.file_address_mux.fsr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test218": {
+            "signal_name": "top.file_address_mux.inst_5[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test219": {
+            "signal_name": "top.file_address_mux.inst_5[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test220": {
+            "signal_name": "top.file_address_mux.inst_5[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test221": {
+            "signal_name": "top.file_address_mux.inst_5[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test222": {
+            "signal_name": "top.file_address_mux.inst_5[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test223": {
+            "signal_name": "top.file_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test224": {
+            "signal_name": "top.file_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test225": {
+            "signal_name": "top.fsr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test226": {
+            "signal_name": "top.fsr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test227": {
+            "signal_name": "top.fsr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test228": {
+            "signal_name": "top.fsr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test229": {
+            "signal_name": "top.fsr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test230": {
+            "signal_name": "top.fsr_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test231": {
+            "signal_name": "top.fsr_register.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test232": {
+            "signal_name": "top.fsr_register.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test233": {
+            "signal_name": "top.fsr_register.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test234": {
+            "signal_name": "top.fsr_register.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test235": {
+            "signal_name": "top.fsr_register.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test236": {
+            "signal_name": "top.fsr_register.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test237": {
+            "signal_name": "top.fsr_register.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test238": {
+            "signal_name": "top.fsr_register.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test239": {
+            "signal_name": "top.fsr_register.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test240": {
+            "signal_name": "top.fsr_register.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test241": {
+            "signal_name": "top.fsr_register.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test242": {
+            "signal_name": "top.fsr_register.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test243": {
+            "signal_name": "top.fsr_register.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test244": {
+            "signal_name": "top.fsr_register.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test245": {
+            "signal_name": "top.fsr_register.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test246": {
+            "signal_name": "top.fsr_register.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test247": {
+            "signal_name": "top.fsr_register.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test248": {
+            "signal_name": "top.fsr_register.fsr_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test249": {
+            "signal_name": "top.fsr_register.fsr_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test250": {
+            "signal_name": "top.fsr_register.fsr_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test251": {
+            "signal_name": "top.fsr_register.fsr_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test252": {
+            "signal_name": "top.fsr_register.fsr_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test253": {
+            "signal_name": "top.fsr_register.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test254": {
+            "signal_name": "top.fsr_register.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test255": {
+            "signal_name": "top.fsr_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test256": {
+            "signal_name": "top.imm_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test257": {
+            "signal_name": "top.inst[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test258": {
+            "signal_name": "top.inst[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test259": {
+            "signal_name": "top.inst[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test260": {
+            "signal_name": "top.inst[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test261": {
+            "signal_name": "top.inst[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test262": {
+            "signal_name": "top.inst[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test263": {
+            "signal_name": "top.inst[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test264": {
+            "signal_name": "top.inst[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test265": {
+            "signal_name": "top.inst[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test266": {
+            "signal_name": "top.inst[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test267": {
+            "signal_name": "top.inst[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test268": {
+            "signal_name": "top.inst[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test269": {
+            "signal_name": "top.inst_skip",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test270": {
+            "signal_name": "top.instruction_register.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test271": {
+            "signal_name": "top.instruction_register.imm_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test272": {
+            "signal_name": "top.instruction_register.imm_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test273": {
+            "signal_name": "top.instruction_register.imm_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test274": {
+            "signal_name": "top.instruction_register.imm_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test275": {
+            "signal_name": "top.instruction_register.imm_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test276": {
+            "signal_name": "top.instruction_register.imm_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test277": {
+            "signal_name": "top.instruction_register.imm_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test278": {
+            "signal_name": "top.instruction_register.imm_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test279": {
+            "signal_name": "top.instruction_register.inst_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test280": {
+            "signal_name": "top.instruction_register.inst_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test281": {
+            "signal_name": "top.instruction_register.inst_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test282": {
+            "signal_name": "top.instruction_register.inst_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test283": {
+            "signal_name": "top.instruction_register.inst_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test284": {
+            "signal_name": "top.instruction_register.inst_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test285": {
+            "signal_name": "top.instruction_register.inst_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test286": {
+            "signal_name": "top.instruction_register.inst_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test287": {
+            "signal_name": "top.instruction_register.inst_in[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test288": {
+            "signal_name": "top.instruction_register.inst_in[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test289": {
+            "signal_name": "top.instruction_register.inst_in[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test290": {
+            "signal_name": "top.instruction_register.inst_in[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test291": {
+            "signal_name": "top.instruction_register.inst_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test292": {
+            "signal_name": "top.instruction_register.inst_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test293": {
+            "signal_name": "top.instruction_register.inst_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test294": {
+            "signal_name": "top.instruction_register.inst_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test295": {
+            "signal_name": "top.instruction_register.inst_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test296": {
+            "signal_name": "top.instruction_register.inst_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test297": {
+            "signal_name": "top.instruction_register.inst_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test298": {
+            "signal_name": "top.instruction_register.inst_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test299": {
+            "signal_name": "top.instruction_register.inst_out[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test300": {
+            "signal_name": "top.instruction_register.inst_out[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test301": {
+            "signal_name": "top.instruction_register.inst_out[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test302": {
+            "signal_name": "top.instruction_register.inst_out[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test303": {
+            "signal_name": "top.instruction_register.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test304": {
+            "signal_name": "top.instruction_register.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test305": {
+            "signal_name": "top.instruction_register.skip",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test306": {
+            "signal_name": "top.io_conf_port_a.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test307": {
+            "signal_name": "top.io_conf_port_a.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test308": {
+            "signal_name": "top.io_conf_port_a.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test309": {
+            "signal_name": "top.io_conf_port_a.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test310": {
+            "signal_name": "top.io_conf_port_a.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test311": {
+            "signal_name": "top.io_conf_port_a.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test312": {
+            "signal_name": "top.io_conf_port_a.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test313": {
+            "signal_name": "top.io_conf_port_a.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test314": {
+            "signal_name": "top.io_conf_port_a.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test315": {
+            "signal_name": "top.io_conf_port_a.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test316": {
+            "signal_name": "top.io_conf_port_a.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test317": {
+            "signal_name": "top.io_conf_port_a.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test318": {
+            "signal_name": "top.io_conf_port_a.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test319": {
+            "signal_name": "top.io_conf_port_a.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test320": {
+            "signal_name": "top.io_conf_port_a.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test321": {
+            "signal_name": "top.io_conf_port_a.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test322": {
+            "signal_name": "top.io_conf_port_a.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test323": {
+            "signal_name": "top.io_conf_port_a.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test324": {
+            "signal_name": "top.io_conf_port_a.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test325": {
+            "signal_name": "top.io_conf_port_b.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test326": {
+            "signal_name": "top.io_conf_port_b.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test327": {
+            "signal_name": "top.io_conf_port_b.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test328": {
+            "signal_name": "top.io_conf_port_b.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test329": {
+            "signal_name": "top.io_conf_port_b.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test330": {
+            "signal_name": "top.io_conf_port_b.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test331": {
+            "signal_name": "top.io_conf_port_b.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test332": {
+            "signal_name": "top.io_conf_port_b.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test333": {
+            "signal_name": "top.io_conf_port_b.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test334": {
+            "signal_name": "top.io_conf_port_b.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test335": {
+            "signal_name": "top.io_conf_port_b.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test336": {
+            "signal_name": "top.io_conf_port_b.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test337": {
+            "signal_name": "top.io_conf_port_b.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test338": {
+            "signal_name": "top.io_conf_port_b.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test339": {
+            "signal_name": "top.io_conf_port_b.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test340": {
+            "signal_name": "top.io_conf_port_b.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test341": {
+            "signal_name": "top.io_conf_port_b.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test342": {
+            "signal_name": "top.io_conf_port_b.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test343": {
+            "signal_name": "top.io_conf_port_b.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test344": {
+            "signal_name": "top.io_conf_port_c.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test345": {
+            "signal_name": "top.io_conf_port_c.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test346": {
+            "signal_name": "top.io_conf_port_c.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test347": {
+            "signal_name": "top.io_conf_port_c.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test348": {
+            "signal_name": "top.io_conf_port_c.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test349": {
+            "signal_name": "top.io_conf_port_c.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test350": {
+            "signal_name": "top.io_conf_port_c.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test351": {
+            "signal_name": "top.io_conf_port_c.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test352": {
+            "signal_name": "top.io_conf_port_c.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test353": {
+            "signal_name": "top.io_conf_port_c.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test354": {
+            "signal_name": "top.io_conf_port_c.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test355": {
+            "signal_name": "top.io_conf_port_c.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test356": {
+            "signal_name": "top.io_conf_port_c.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test357": {
+            "signal_name": "top.io_conf_port_c.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test358": {
+            "signal_name": "top.io_conf_port_c.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test359": {
+            "signal_name": "top.io_conf_port_c.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test360": {
+            "signal_name": "top.io_conf_port_c.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test361": {
+            "signal_name": "top.io_conf_port_c.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test362": {
+            "signal_name": "top.io_conf_port_c.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test363": {
+            "signal_name": "top.pc_load",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test364": {
+            "signal_name": "top.pc_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test365": {
+            "signal_name": "top.pc_pop",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test366": {
+            "signal_name": "top.pc_push",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test367": {
+            "signal_name": "top.pc_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test368": {
+            "signal_name": "top.pic_rom_addr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test369": {
+            "signal_name": "top.pic_rom_addr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test370": {
+            "signal_name": "top.pic_rom_addr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test371": {
+            "signal_name": "top.pic_rom_addr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test372": {
+            "signal_name": "top.pic_rom_addr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test373": {
+            "signal_name": "top.pic_rom_addr[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test374": {
+            "signal_name": "top.pic_rom_addr[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test375": {
+            "signal_name": "top.pic_rom_addr[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test376": {
+            "signal_name": "top.pic_rom_addr[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test377": {
+            "signal_name": "top.pic_rom_data[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test378": {
+            "signal_name": "top.pic_rom_data[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test379": {
+            "signal_name": "top.pic_rom_data[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test380": {
+            "signal_name": "top.pic_rom_data[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test381": {
+            "signal_name": "top.pic_rom_data[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test382": {
+            "signal_name": "top.pic_rom_data[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test383": {
+            "signal_name": "top.pic_rom_data[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test384": {
+            "signal_name": "top.pic_rom_data[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test385": {
+            "signal_name": "top.pic_rom_data[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test386": {
+            "signal_name": "top.pic_rom_data[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test387": {
+            "signal_name": "top.pic_rom_data[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test388": {
+            "signal_name": "top.pic_rom_data[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test389": {
+            "signal_name": "top.port_a[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test390": {
+            "signal_name": "top.port_a[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test391": {
+            "signal_name": "top.port_a[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test392": {
+            "signal_name": "top.port_a[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test393": {
+            "signal_name": "top.port_a[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test394": {
+            "signal_name": "top.port_a[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test395": {
+            "signal_name": "top.port_a[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test396": {
+            "signal_name": "top.port_a[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test397": {
+            "signal_name": "top.port_a_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test398": {
+            "signal_name": "top.port_a_reg.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test399": {
+            "signal_name": "top.port_a_reg.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test400": {
+            "signal_name": "top.port_a_reg.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test401": {
+            "signal_name": "top.port_a_reg.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test402": {
+            "signal_name": "top.port_a_reg.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test403": {
+            "signal_name": "top.port_a_reg.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test404": {
+            "signal_name": "top.port_a_reg.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test405": {
+            "signal_name": "top.port_a_reg.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test406": {
+            "signal_name": "top.port_a_reg.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test407": {
+            "signal_name": "top.port_a_reg.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test408": {
+            "signal_name": "top.port_a_reg.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test409": {
+            "signal_name": "top.port_a_reg.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test410": {
+            "signal_name": "top.port_a_reg.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test411": {
+            "signal_name": "top.port_a_reg.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test412": {
+            "signal_name": "top.port_a_reg.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test413": {
+            "signal_name": "top.port_a_reg.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test414": {
+            "signal_name": "top.port_a_reg.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test415": {
+            "signal_name": "top.port_a_reg.inout_sel[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test416": {
+            "signal_name": "top.port_a_reg.inout_sel[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test417": {
+            "signal_name": "top.port_a_reg.inout_sel[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test418": {
+            "signal_name": "top.port_a_reg.inout_sel[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test419": {
+            "signal_name": "top.port_a_reg.inout_sel[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test420": {
+            "signal_name": "top.port_a_reg.inout_sel[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test421": {
+            "signal_name": "top.port_a_reg.inout_sel[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test422": {
+            "signal_name": "top.port_a_reg.inout_sel[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test423": {
+            "signal_name": "top.port_a_reg.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test424": {
+            "signal_name": "top.port_a_reg.dataport[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test425": {
+            "signal_name": "top.port_a_reg.dataport[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test426": {
+            "signal_name": "top.port_a_reg.dataport[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test427": {
+            "signal_name": "top.port_a_reg.dataport[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test428": {
+            "signal_name": "top.port_a_reg.dataport[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test429": {
+            "signal_name": "top.port_a_reg.dataport[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test430": {
+            "signal_name": "top.port_a_reg.dataport[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test431": {
+            "signal_name": "top.port_a_reg.dataport[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test432": {
+            "signal_name": "top.port_a_reg.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test433": {
+            "signal_name": "top.port_a_tri[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test434": {
+            "signal_name": "top.port_a_tri[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test435": {
+            "signal_name": "top.port_a_tri[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test436": {
+            "signal_name": "top.port_a_tri[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test437": {
+            "signal_name": "top.port_a_tri[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test438": {
+            "signal_name": "top.port_a_tri[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test439": {
+            "signal_name": "top.port_a_tri[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test440": {
+            "signal_name": "top.port_a_tri[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test441": {
+            "signal_name": "top.port_a_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test442": {
+            "signal_name": "top.port_b[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test443": {
+            "signal_name": "top.port_b[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test444": {
+            "signal_name": "top.port_b[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test445": {
+            "signal_name": "top.port_b[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test446": {
+            "signal_name": "top.port_b[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test447": {
+            "signal_name": "top.port_b[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test448": {
+            "signal_name": "top.port_b[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test449": {
+            "signal_name": "top.port_b[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test450": {
+            "signal_name": "top.port_b_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test451": {
+            "signal_name": "top.port_b_reg.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test452": {
+            "signal_name": "top.port_b_reg.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test453": {
+            "signal_name": "top.port_b_reg.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test454": {
+            "signal_name": "top.port_b_reg.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test455": {
+            "signal_name": "top.port_b_reg.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test456": {
+            "signal_name": "top.port_b_reg.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test457": {
+            "signal_name": "top.port_b_reg.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test458": {
+            "signal_name": "top.port_b_reg.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test459": {
+            "signal_name": "top.port_b_reg.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test460": {
+            "signal_name": "top.port_b_reg.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test461": {
+            "signal_name": "top.port_b_reg.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test462": {
+            "signal_name": "top.port_b_reg.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test463": {
+            "signal_name": "top.port_b_reg.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test464": {
+            "signal_name": "top.port_b_reg.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test465": {
+            "signal_name": "top.port_b_reg.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test466": {
+            "signal_name": "top.port_b_reg.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test467": {
+            "signal_name": "top.port_b_reg.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test468": {
+            "signal_name": "top.port_b_reg.inout_sel[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test469": {
+            "signal_name": "top.port_b_reg.inout_sel[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test470": {
+            "signal_name": "top.port_b_reg.inout_sel[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test471": {
+            "signal_name": "top.port_b_reg.inout_sel[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test472": {
+            "signal_name": "top.port_b_reg.inout_sel[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test473": {
+            "signal_name": "top.port_b_reg.inout_sel[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test474": {
+            "signal_name": "top.port_b_reg.inout_sel[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test475": {
+            "signal_name": "top.port_b_reg.inout_sel[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test476": {
+            "signal_name": "top.port_b_reg.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test477": {
+            "signal_name": "top.port_b_reg.dataport[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test478": {
+            "signal_name": "top.port_b_reg.dataport[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test479": {
+            "signal_name": "top.port_b_reg.dataport[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test480": {
+            "signal_name": "top.port_b_reg.dataport[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test481": {
+            "signal_name": "top.port_b_reg.dataport[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test482": {
+            "signal_name": "top.port_b_reg.dataport[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test483": {
+            "signal_name": "top.port_b_reg.dataport[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test484": {
+            "signal_name": "top.port_b_reg.dataport[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test485": {
+            "signal_name": "top.port_b_reg.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test486": {
+            "signal_name": "top.port_b_tri[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test487": {
+            "signal_name": "top.port_b_tri[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test488": {
+            "signal_name": "top.port_b_tri[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test489": {
+            "signal_name": "top.port_b_tri[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test490": {
+            "signal_name": "top.port_b_tri[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test491": {
+            "signal_name": "top.port_b_tri[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test492": {
+            "signal_name": "top.port_b_tri[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test493": {
+            "signal_name": "top.port_b_tri[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test494": {
+            "signal_name": "top.port_b_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test495": {
+            "signal_name": "top.port_c[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test496": {
+            "signal_name": "top.port_c[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test497": {
+            "signal_name": "top.port_c[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test498": {
+            "signal_name": "top.port_c[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test499": {
+            "signal_name": "top.port_c[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test500": {
+            "signal_name": "top.port_c[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test501": {
+            "signal_name": "top.port_c[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test502": {
+            "signal_name": "top.port_c[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test503": {
+            "signal_name": "top.port_c_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test504": {
+            "signal_name": "top.port_c_reg.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test505": {
+            "signal_name": "top.port_c_reg.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test506": {
+            "signal_name": "top.port_c_reg.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test507": {
+            "signal_name": "top.port_c_reg.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test508": {
+            "signal_name": "top.port_c_reg.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test509": {
+            "signal_name": "top.port_c_reg.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test510": {
+            "signal_name": "top.port_c_reg.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test511": {
+            "signal_name": "top.port_c_reg.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test512": {
+            "signal_name": "top.port_c_reg.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test513": {
+            "signal_name": "top.port_c_reg.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test514": {
+            "signal_name": "top.port_c_reg.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test515": {
+            "signal_name": "top.port_c_reg.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test516": {
+            "signal_name": "top.port_c_reg.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test517": {
+            "signal_name": "top.port_c_reg.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test518": {
+            "signal_name": "top.port_c_reg.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test519": {
+            "signal_name": "top.port_c_reg.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test520": {
+            "signal_name": "top.port_c_reg.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test521": {
+            "signal_name": "top.port_c_reg.inout_sel[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test522": {
+            "signal_name": "top.port_c_reg.inout_sel[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test523": {
+            "signal_name": "top.port_c_reg.inout_sel[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test524": {
+            "signal_name": "top.port_c_reg.inout_sel[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test525": {
+            "signal_name": "top.port_c_reg.inout_sel[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test526": {
+            "signal_name": "top.port_c_reg.inout_sel[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test527": {
+            "signal_name": "top.port_c_reg.inout_sel[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test528": {
+            "signal_name": "top.port_c_reg.inout_sel[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test529": {
+            "signal_name": "top.port_c_reg.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test530": {
+            "signal_name": "top.port_c_reg.dataport[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test531": {
+            "signal_name": "top.port_c_reg.dataport[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test532": {
+            "signal_name": "top.port_c_reg.dataport[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test533": {
+            "signal_name": "top.port_c_reg.dataport[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test534": {
+            "signal_name": "top.port_c_reg.dataport[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test535": {
+            "signal_name": "top.port_c_reg.dataport[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test536": {
+            "signal_name": "top.port_c_reg.dataport[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test537": {
+            "signal_name": "top.port_c_reg.dataport[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test538": {
+            "signal_name": "top.port_c_reg.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test539": {
+            "signal_name": "top.port_c_tri[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test540": {
+            "signal_name": "top.port_c_tri[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test541": {
+            "signal_name": "top.port_c_tri[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test542": {
+            "signal_name": "top.port_c_tri[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test543": {
+            "signal_name": "top.port_c_tri[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test544": {
+            "signal_name": "top.port_c_tri[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test545": {
+            "signal_name": "top.port_c_tri[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test546": {
+            "signal_name": "top.port_c_tri[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test547": {
+            "signal_name": "top.port_c_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test548": {
+            "signal_name": "top.program_counter.addr_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test549": {
+            "signal_name": "top.program_counter.addr_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test550": {
+            "signal_name": "top.program_counter.addr_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test551": {
+            "signal_name": "top.program_counter.addr_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test552": {
+            "signal_name": "top.program_counter.addr_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test553": {
+            "signal_name": "top.program_counter.addr_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test554": {
+            "signal_name": "top.program_counter.addr_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test555": {
+            "signal_name": "top.program_counter.addr_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test556": {
+            "signal_name": "top.program_counter.addr_in[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test557": {
+            "signal_name": "top.program_counter.addr_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test558": {
+            "signal_name": "top.program_counter.addr_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test559": {
+            "signal_name": "top.program_counter.addr_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test560": {
+            "signal_name": "top.program_counter.addr_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test561": {
+            "signal_name": "top.program_counter.addr_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test562": {
+            "signal_name": "top.program_counter.addr_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test563": {
+            "signal_name": "top.program_counter.addr_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test564": {
+            "signal_name": "top.program_counter.addr_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test565": {
+            "signal_name": "top.program_counter.addr_out[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test566": {
+            "signal_name": "top.program_counter.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test567": {
+            "signal_name": "top.program_counter.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test568": {
+            "signal_name": "top.program_counter.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test569": {
+            "signal_name": "top.program_counter.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test570": {
+            "signal_name": "top.program_counter.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test571": {
+            "signal_name": "top.program_counter.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test572": {
+            "signal_name": "top.program_counter.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test573": {
+            "signal_name": "top.program_counter.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test574": {
+            "signal_name": "top.program_counter.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test575": {
+            "signal_name": "top.program_counter.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test576": {
+            "signal_name": "top.program_counter.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test577": {
+            "signal_name": "top.program_counter.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test578": {
+            "signal_name": "top.program_counter.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test579": {
+            "signal_name": "top.program_counter.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test580": {
+            "signal_name": "top.program_counter.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test581": {
+            "signal_name": "top.program_counter.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test582": {
+            "signal_name": "top.program_counter.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test583": {
+            "signal_name": "top.program_counter.load",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test584": {
+            "signal_name": "top.program_counter.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test585": {
+            "signal_name": "top.program_counter.pop",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test586": {
+            "signal_name": "top.program_counter.push",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test587": {
+            "signal_name": "top.program_counter.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test588": {
+            "signal_name": "top.program_counter.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test589": {
+            "signal_name": "top.register_file.address[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test590": {
+            "signal_name": "top.register_file.address[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test591": {
+            "signal_name": "top.register_file.address[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test592": {
+            "signal_name": "top.register_file.address[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test593": {
+            "signal_name": "top.register_file.address[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test594": {
+            "signal_name": "top.register_file.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test595": {
+            "signal_name": "top.register_file.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test596": {
+            "signal_name": "top.register_file.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test597": {
+            "signal_name": "top.register_file.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test598": {
+            "signal_name": "top.register_file.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test599": {
+            "signal_name": "top.register_file.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test600": {
+            "signal_name": "top.register_file.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test601": {
+            "signal_name": "top.register_file.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test602": {
+            "signal_name": "top.register_file.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test603": {
+            "signal_name": "top.register_file.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test604": {
+            "signal_name": "top.register_file.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test605": {
+            "signal_name": "top.register_file.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test606": {
+            "signal_name": "top.register_file.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test607": {
+            "signal_name": "top.register_file.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test608": {
+            "signal_name": "top.register_file.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test609": {
+            "signal_name": "top.register_file.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test610": {
+            "signal_name": "top.register_file.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test611": {
+            "signal_name": "top.register_file.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test612": {
+            "signal_name": "top.register_file.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test613": {
+            "signal_name": "top.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test614": {
+            "signal_name": "top.rom.addr[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test615": {
+            "signal_name": "top.rom.addr[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test616": {
+            "signal_name": "top.rom.addr[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test617": {
+            "signal_name": "top.rom.addr[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test618": {
+            "signal_name": "top.rom.addr[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test619": {
+            "signal_name": "top.rom.addr[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test620": {
+            "signal_name": "top.rom.addr[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test621": {
+            "signal_name": "top.rom.addr[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test622": {
+            "signal_name": "top.rom.addr[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test623": {
+            "signal_name": "top.rom.data[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test624": {
+            "signal_name": "top.rom.data[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test625": {
+            "signal_name": "top.rom.data[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test626": {
+            "signal_name": "top.rom.data[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test627": {
+            "signal_name": "top.rom.data[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test628": {
+            "signal_name": "top.rom.data[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test629": {
+            "signal_name": "top.rom.data[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test630": {
+            "signal_name": "top.rom.data[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test631": {
+            "signal_name": "top.rom.data[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test632": {
+            "signal_name": "top.rom.data[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test633": {
+            "signal_name": "top.rom.data[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test634": {
+            "signal_name": "top.rom.data[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test635": {
+            "signal_name": "top.rtcc.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test636": {
+            "signal_name": "top.rtcc.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test637": {
+            "signal_name": "top.rtcc.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test638": {
+            "signal_name": "top.rtcc.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test639": {
+            "signal_name": "top.rtcc.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test640": {
+            "signal_name": "top.rtcc.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test641": {
+            "signal_name": "top.rtcc.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test642": {
+            "signal_name": "top.rtcc.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test643": {
+            "signal_name": "top.rtcc.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test644": {
+            "signal_name": "top.rtcc.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test645": {
+            "signal_name": "top.rtcc.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test646": {
+            "signal_name": "top.rtcc.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test647": {
+            "signal_name": "top.rtcc.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test648": {
+            "signal_name": "top.rtcc.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test649": {
+            "signal_name": "top.rtcc.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test650": {
+            "signal_name": "top.rtcc.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test651": {
+            "signal_name": "top.rtcc.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test652": {
+            "signal_name": "top.rtcc.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test653": {
+            "signal_name": "top.rtcc.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test654": {
+            "signal_name": "top.rtcc_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test655": {
+            "signal_name": "top.rtcc_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test656": {
+            "signal_name": "top.status_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test657": {
+            "signal_name": "top.status_register.carry_in",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test658": {
+            "signal_name": "top.status_register.carry_out",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test659": {
+            "signal_name": "top.status_register.carry_wr",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test660": {
+            "signal_name": "top.status_register.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test661": {
+            "signal_name": "top.status_register.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test662": {
+            "signal_name": "top.status_register.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test663": {
+            "signal_name": "top.status_register.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test664": {
+            "signal_name": "top.status_register.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test665": {
+            "signal_name": "top.status_register.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test666": {
+            "signal_name": "top.status_register.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test667": {
+            "signal_name": "top.status_register.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test668": {
+            "signal_name": "top.status_register.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test669": {
+            "signal_name": "top.status_register.data_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test670": {
+            "signal_name": "top.status_register.data_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test671": {
+            "signal_name": "top.status_register.data_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test672": {
+            "signal_name": "top.status_register.data_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test673": {
+            "signal_name": "top.status_register.data_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test674": {
+            "signal_name": "top.status_register.data_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test675": {
+            "signal_name": "top.status_register.data_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test676": {
+            "signal_name": "top.status_register.data_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test677": {
+            "signal_name": "top.status_register.out_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test678": {
+            "signal_name": "top.status_register.reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test679": {
+            "signal_name": "top.status_register.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test680": {
+            "signal_name": "top.status_register.zero_in",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test681": {
+            "signal_name": "top.status_register.zero_wr",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test682": {
+            "signal_name": "top.status_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test683": {
+            "signal_name": "top.tris_a_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test684": {
+            "signal_name": "top.tris_b_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test685": {
+            "signal_name": "top.tris_c_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test686": {
+            "signal_name": "top.w_a_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test687": {
+            "signal_name": "top.w_b_oen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test688": {
+            "signal_name": "top.w_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test689": {
+            "signal_name": "top.working_register.clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test690": {
+            "signal_name": "top.working_register.data_in[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test691": {
+            "signal_name": "top.working_register.data_in[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test692": {
+            "signal_name": "top.working_register.data_in[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test693": {
+            "signal_name": "top.working_register.data_in[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test694": {
+            "signal_name": "top.working_register.data_in[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test695": {
+            "signal_name": "top.working_register.data_in[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test696": {
+            "signal_name": "top.working_register.data_in[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test697": {
+            "signal_name": "top.working_register.data_in[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test698": {
+            "signal_name": "top.working_register.data_a_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test699": {
+            "signal_name": "top.working_register.data_a_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test700": {
+            "signal_name": "top.working_register.data_a_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test701": {
+            "signal_name": "top.working_register.data_a_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test702": {
+            "signal_name": "top.working_register.data_a_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test703": {
+            "signal_name": "top.working_register.data_a_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test704": {
+            "signal_name": "top.working_register.data_a_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test705": {
+            "signal_name": "top.working_register.data_a_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test706": {
+            "signal_name": "top.working_register.data_b_out[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test707": {
+            "signal_name": "top.working_register.data_b_out[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test708": {
+            "signal_name": "top.working_register.data_b_out[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test709": {
+            "signal_name": "top.working_register.data_b_out[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test710": {
+            "signal_name": "top.working_register.data_b_out[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test711": {
+            "signal_name": "top.working_register.data_b_out[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test712": {
+            "signal_name": "top.working_register.data_b_out[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test713": {
+            "signal_name": "top.working_register.data_b_out[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test714": {
+            "signal_name": "top.working_register.out_a_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test715": {
+            "signal_name": "top.working_register.out_b_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test716": {
+            "signal_name": "top.working_register.write_en",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test717": {
+            "signal_name": "top.zero",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test718": {
+            "signal_name": "top.zero_wen",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        }
+    }
+}

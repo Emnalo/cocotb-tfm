@@ -5,19 +5,19 @@ from cocotb.handle import Deposit
 
 @cocotb.test()
 async def FailTest(dut):
-    # Generate clock
+    # Genera señal de reloj
     cocotb.start_soon(Clock(dut.clk, 10, units='ns').start())
-    # Apply initial values
+    # Aplica valores iniciales
     dut.din.value = 0b0001
     dut.rst.value = 1
     await Timer(10, units='ns')
     dut.rst.value = 0
     await Timer(10, units='ns')
-    # Simulate normal operation
-    dut.enable.value = 1  # Set enable to start operation
+    # Simula operacion normal
+    dut.enable.value = 1  # Activa señal enable para empezar
     
-    # Wait for state to change from IDLE to WORKING
-    while dut.state.value != 1:  # Assuming WORKING state is 1
+    # Espera a cambio de estado de IDLE a WORKING
+    while dut.state.value != 1:  # WORKING = 1
         await RisingEdge(dut.clk)
     dut._log.info("State transitioned to WORKING")
     

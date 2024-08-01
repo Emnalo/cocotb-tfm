@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1722195743" />
-    <testcase name="dynamic_test" classname="ParametricTest" file="/home/emnalo/cocotb-tfm/Processors/PICStructural/NVC/Stuck-at-1/infra/test807/ParametricTest.py" lineno="124" time="0.019901037216186523" sim_time_ns="9000.000001" ratio_time="452237.7353115969" />
-  </testsuite>
-</testsuites>

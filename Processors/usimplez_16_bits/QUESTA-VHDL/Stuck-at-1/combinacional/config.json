@@ -1,0 +1,1061 @@
+{
+    "exp": {
+        "test1": {
+            "signal_name": "clock",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test2": {
+            "signal_name": "in0_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test3": {
+            "signal_name": "in1_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test4": {
+            "signal_name": "op0_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test5": {
+            "signal_name": "op1_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test6": {
+            "signal_name": "reset",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test7": {
+            "signal_name": "we_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test8": {
+            "signal_name": "top.addr_bus_s[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test9": {
+            "signal_name": "top.addr_bus_s[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test10": {
+            "signal_name": "top.addr_bus_s[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test11": {
+            "signal_name": "top.addr_bus_s[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test12": {
+            "signal_name": "top.addr_bus_s[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test13": {
+            "signal_name": "top.addr_bus_s[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test14": {
+            "signal_name": "top.addr_bus_s[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test15": {
+            "signal_name": "top.addr_bus_s[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test16": {
+            "signal_name": "top.addr_bus_s[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test17": {
+            "signal_name": "top.clk_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test18": {
+            "signal_name": "top.in0_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test19": {
+            "signal_name": "top.in1_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test20": {
+            "signal_name": "top.op0_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test21": {
+            "signal_name": "top.op1_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test22": {
+            "signal_name": "top.rd_data_bus_s[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test23": {
+            "signal_name": "top.rd_data_bus_s[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test24": {
+            "signal_name": "top.rd_data_bus_s[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test25": {
+            "signal_name": "top.rd_data_bus_s[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test26": {
+            "signal_name": "top.rd_data_bus_s[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test27": {
+            "signal_name": "top.rd_data_bus_s[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test28": {
+            "signal_name": "top.rd_data_bus_s[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test29": {
+            "signal_name": "top.rd_data_bus_s[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test30": {
+            "signal_name": "top.rd_data_bus_s[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test31": {
+            "signal_name": "top.rd_data_bus_s[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test32": {
+            "signal_name": "top.rd_data_bus_s[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test33": {
+            "signal_name": "top.rd_data_bus_s[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test34": {
+            "signal_name": "top.rd_data_bus_s[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test35": {
+            "signal_name": "top.rd_data_bus_s[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test36": {
+            "signal_name": "top.rd_data_bus_s[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test37": {
+            "signal_name": "top.rd_data_bus_s[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test38": {
+            "signal_name": "top.rst_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test39": {
+            "signal_name": "top.we_o",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test40": {
+            "signal_name": "top.we_s",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test41": {
+            "signal_name": "top.wr_data_bus_s[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test42": {
+            "signal_name": "top.wr_data_bus_s[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test43": {
+            "signal_name": "top.wr_data_bus_s[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test44": {
+            "signal_name": "top.wr_data_bus_s[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test45": {
+            "signal_name": "top.wr_data_bus_s[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test46": {
+            "signal_name": "top.wr_data_bus_s[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test47": {
+            "signal_name": "top.wr_data_bus_s[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test48": {
+            "signal_name": "top.wr_data_bus_s[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test49": {
+            "signal_name": "top.wr_data_bus_s[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test50": {
+            "signal_name": "top.wr_data_bus_s[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test51": {
+            "signal_name": "top.wr_data_bus_s[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test52": {
+            "signal_name": "top.wr_data_bus_s[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test53": {
+            "signal_name": "top.wr_data_bus_s[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test54": {
+            "signal_name": "top.wr_data_bus_s[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test55": {
+            "signal_name": "top.wr_data_bus_s[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test56": {
+            "signal_name": "top.wr_data_bus_s[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test57": {
+            "signal_name": "top.cpu.addr_bus_o[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test58": {
+            "signal_name": "top.cpu.addr_bus_o[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test59": {
+            "signal_name": "top.cpu.addr_bus_o[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test60": {
+            "signal_name": "top.cpu.addr_bus_o[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test61": {
+            "signal_name": "top.cpu.addr_bus_o[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test62": {
+            "signal_name": "top.cpu.addr_bus_o[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test63": {
+            "signal_name": "top.cpu.addr_bus_o[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test64": {
+            "signal_name": "top.cpu.addr_bus_o[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test65": {
+            "signal_name": "top.cpu.addr_bus_o[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test66": {
+            "signal_name": "top.cpu.addr_bus_s[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test67": {
+            "signal_name": "top.cpu.addr_bus_s[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test68": {
+            "signal_name": "top.cpu.addr_bus_s[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test69": {
+            "signal_name": "top.cpu.addr_bus_s[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test70": {
+            "signal_name": "top.cpu.addr_bus_s[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test71": {
+            "signal_name": "top.cpu.addr_bus_s[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test72": {
+            "signal_name": "top.cpu.addr_bus_s[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test73": {
+            "signal_name": "top.cpu.addr_bus_s[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test74": {
+            "signal_name": "top.cpu.addr_bus_s[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test75": {
+            "signal_name": "top.cpu.clk_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test76": {
+            "signal_name": "top.cpu.data_bus_i[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test77": {
+            "signal_name": "top.cpu.data_bus_i[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test78": {
+            "signal_name": "top.cpu.data_bus_i[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test79": {
+            "signal_name": "top.cpu.data_bus_i[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test80": {
+            "signal_name": "top.cpu.data_bus_i[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test81": {
+            "signal_name": "top.cpu.data_bus_i[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test82": {
+            "signal_name": "top.cpu.data_bus_i[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test83": {
+            "signal_name": "top.cpu.data_bus_i[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test84": {
+            "signal_name": "top.cpu.data_bus_i[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test85": {
+            "signal_name": "top.cpu.data_bus_i[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test86": {
+            "signal_name": "top.cpu.data_bus_i[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test87": {
+            "signal_name": "top.cpu.data_bus_i[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test88": {
+            "signal_name": "top.cpu.data_bus_i[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test89": {
+            "signal_name": "top.cpu.data_bus_i[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test90": {
+            "signal_name": "top.cpu.data_bus_i[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test91": {
+            "signal_name": "top.cpu.data_bus_i[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test92": {
+            "signal_name": "top.cpu.data_bus_s[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test93": {
+            "signal_name": "top.cpu.data_bus_s[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test94": {
+            "signal_name": "top.cpu.data_bus_s[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test95": {
+            "signal_name": "top.cpu.data_bus_s[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test96": {
+            "signal_name": "top.cpu.data_bus_s[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test97": {
+            "signal_name": "top.cpu.data_bus_s[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test98": {
+            "signal_name": "top.cpu.data_bus_s[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test99": {
+            "signal_name": "top.cpu.data_bus_s[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test100": {
+            "signal_name": "top.cpu.data_bus_s[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test101": {
+            "signal_name": "top.cpu.data_bus_s[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test102": {
+            "signal_name": "top.cpu.data_bus_s[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test103": {
+            "signal_name": "top.cpu.data_bus_s[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test104": {
+            "signal_name": "top.cpu.data_bus_s[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test105": {
+            "signal_name": "top.cpu.data_bus_s[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test106": {
+            "signal_name": "top.cpu.data_bus_s[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test107": {
+            "signal_name": "top.cpu.data_bus_s[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test108": {
+            "signal_name": "top.cpu.rst_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test109": {
+            "signal_name": "top.ram.addr_i[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test110": {
+            "signal_name": "top.ram.addr_i[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test111": {
+            "signal_name": "top.ram.addr_i[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test112": {
+            "signal_name": "top.ram.addr_i[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test113": {
+            "signal_name": "top.ram.addr_i[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test114": {
+            "signal_name": "top.ram.addr_i[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test115": {
+            "signal_name": "top.ram.addr_i[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test116": {
+            "signal_name": "top.ram.addr_i[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test117": {
+            "signal_name": "top.ram.addr_i[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test118": {
+            "signal_name": "top.ram.clk_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test119": {
+            "signal_name": "top.ram.data_i[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test120": {
+            "signal_name": "top.ram.data_i[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test121": {
+            "signal_name": "top.ram.data_i[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test122": {
+            "signal_name": "top.ram.data_i[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test123": {
+            "signal_name": "top.ram.data_i[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test124": {
+            "signal_name": "top.ram.data_i[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test125": {
+            "signal_name": "top.ram.data_i[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test126": {
+            "signal_name": "top.ram.data_i[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test127": {
+            "signal_name": "top.ram.data_i[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test128": {
+            "signal_name": "top.ram.data_i[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test129": {
+            "signal_name": "top.ram.data_i[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test130": {
+            "signal_name": "top.ram.data_i[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test131": {
+            "signal_name": "top.ram.data_i[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test132": {
+            "signal_name": "top.ram.data_i[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test133": {
+            "signal_name": "top.ram.data_i[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test134": {
+            "signal_name": "top.ram.data_i[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test135": {
+            "signal_name": "top.ram.data_o[0]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test136": {
+            "signal_name": "top.ram.data_o[1]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test137": {
+            "signal_name": "top.ram.data_o[2]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test138": {
+            "signal_name": "top.ram.data_o[3]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test139": {
+            "signal_name": "top.ram.data_o[4]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test140": {
+            "signal_name": "top.ram.data_o[5]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test141": {
+            "signal_name": "top.ram.data_o[6]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test142": {
+            "signal_name": "top.ram.data_o[7]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test143": {
+            "signal_name": "top.ram.data_o[8]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test144": {
+            "signal_name": "top.ram.data_o[9]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test145": {
+            "signal_name": "top.ram.data_o[10]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test146": {
+            "signal_name": "top.ram.data_o[11]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test147": {
+            "signal_name": "top.ram.data_o[12]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test148": {
+            "signal_name": "top.ram.data_o[13]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test149": {
+            "signal_name": "top.ram.data_o[14]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test150": {
+            "signal_name": "top.ram.data_o[15]",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        },
+        "test151": {
+            "signal_name": "top.ram.we_i",
+            "fault_type": "permanent",
+            "fault_value": 1,
+            "injection_time": 0,
+            "duration": 0
+        }
+    }
+}
