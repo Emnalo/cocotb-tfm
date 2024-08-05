@@ -6,5 +6,11 @@ Procesadores candidatos como sujetos para campaña de inyección a través de Co
 			- Stuck-at-1: Campaña de inyección donde los experimentos inyectan en todos los puntos un fallo permanente al inicio con valor 1
 				-Combinacional: Los puntos de inyección son señales del componente que siguen una lógica combinacional
 				-Secuencial: Los puntos de inyección son señales del componente que siguen una lógica secuencial
+			- Stuck-at-0: Campaña de inyección donde los experimentos inyectan en todos los puntos un fallo permanente al inicio con valor 0
+				-Combinacional: Los puntos de inyección son señales del componente que siguen una lógica combinacional
+				-Secuencial: Los puntos de inyección son señales del componente que siguen una lógica secuencial
+			- Bit-flip: Campaña de inyección donde los experimentos inyectan en todos los puntos un fallo transitorio con la inversa del valor en el momento de inyección ( aleatorio). 
+				-Combinacional: Los puntos de inyección son señales del componente que siguen una lógica combinacional (Forzado force con distintas duraciones)
+				-Secuencial: Los puntos de inyección son señales del componente que siguen una lógica secuencial (Forzado con deposit)
 	-Carpeta miscelanea para el manejo de las señales combinacionales y secuenciales + generación de configuraciones json			
 			
