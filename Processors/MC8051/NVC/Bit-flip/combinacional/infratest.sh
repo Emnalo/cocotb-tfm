@@ -4,7 +4,7 @@
 COMMAND="make SIM=nvc"
 
 # Intervalo entre cada ejecución
-INTERVAL=1
+INTERVAL=0
 
 # Directorio actual donde está el script (raíz)
 CURRENT_DIRECTORY="$(pwd)"
@@ -29,7 +29,7 @@ if [ -z "$1" ]; then
 fi
 
 NUM_TEST_DIRS=$1
-
+start_time=$(date +%s)
 # Crear directorios test$1 y copiar archivos
 for ((i=1; i<=NUM_TEST_DIRS; i++)); do
     TEST_DIR="test${i}"
@@ -87,5 +87,10 @@ for ((i=1; i<=NUM_TEST_DIRS; i++)); do
     rm -rf "$TEST_DIR"
 done
 
+end_time=$(date +%s)
+elapsed_time=$((end_time - start_time))
+elapsed_minutes=$(echo "scale=2; $elapsed_time / 60" | bc)
+
+echo "Tiempo transcurrido: $elapsed_minutes minutos."
 echo "Script terminado."
 

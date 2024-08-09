@@ -1,0 +1,14 @@
+{
+    "exp": {
+                "test1": {
+            "signal_name": "top.i_mc8051_core.gen_mc8051_siu(0).i_mc8051_siu.rxd_o",
+            "fault_type": "transient",
+            "fault_value": 0,
+            "injection_interval": [
+                2000,
+                18000
+            ],
+            "duration": 0
+        }
+    }
+}

@@ -119,7 +119,7 @@ def add_signal(signal_name, final_value):
 
     # Escribir el árbol XML modificado de nuevo al archivo
     tree.write(results_namefile, encoding="utf-8", xml_declaration=True)
-
+    
 # Señales a observar
 observed_signals = ["RES[0]","RES[1]","RES[2]","RES[3]",
 		    "RES[4]","RES[5]","RES[6]","RES[7]",

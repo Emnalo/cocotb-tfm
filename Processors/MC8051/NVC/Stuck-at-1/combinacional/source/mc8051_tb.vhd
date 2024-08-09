@@ -86,7 +86,7 @@ architecture Behavioral of mc8051_tb is
     
 begin
 
-    uut : mc8051_top 
+    top : mc8051_top 
     port map (
         clk => clk,
         reset => reset,

@@ -13,7 +13,7 @@ def create_json(signals):
                 "signal_name": signal,
                 "fault_type": fault_type,
                 "fault_value": fault_value,
-                "injection_interval": [1800, 8200],
+                "injection_interval": [2000, 18000],
                 "duration": 10
             }
         else:
