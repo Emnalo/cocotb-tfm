@@ -53,31 +53,14 @@ async def inject_fault(dut, signal_name, fault_type, fault_value, duration):
     :param fault_value: Valor del fallo a inyectar.
     :param duration: Duración del fallo (sólo para fallos transitorios).
     """
-    # Separar el nombre del atributo base de los índices
-    parts = signal_name.split('[')
-    base_signal = parts[0]
-    
-    # Obtener la señal base
-    signal = get_signal(dut, base_signal)
-    if signal is None:
-        raise AttributeError(f"La señal base '{base_signal}' no existe en 'dut'.")
-    
-    # Manejar los índices si existen
-    if len(parts) > 1:
-        index_str = parts[1].rstrip(']')
-        try:
-            index = int(index_str)
-            signal = signal[index]
-        except (ValueError, IndexError):
-            raise AttributeError(f"Índice '{index_str}' fuera de rango o inválido para '{base_signal}'.")
-
+    signal = get_signal(dut, signal_name)
     # Aplicar el fallo
     if fault_type == "permanent":
         signal.value = Force(fault_value)
     elif fault_type == "transient":
         signal.value = Force(fault_value)
         await Timer(duration, units='ns')
-        signal.value = Release()  # Liberar el fallo después de la duración
+        signal.value = Release()
 
 # Función para observar señales y escribir los resultados
 def observe_signals(dut):
@@ -91,16 +74,31 @@ def observe_signals(dut):
 # Función para obtener el objeto de señal del DUT
 def get_signal(dut, signal_name):
     try:
-        # Dividir el nombre de la señal en partes para navegar a través de la jerarquía
         parts = signal_name.split('.')
         signal_obj = dut
         for part in parts:
-            # Acceder a cada parte de la jerarquía
-            signal_obj = getattr(signal_obj, part.split('[')[0])  # Ignorar índices en el nombre de la parte
+            while '[' in part and ']' in part:
+                base_part, rest = part.split('[', 1)
+                signal_obj = getattr(signal_obj, base_part)
+                while ']' in rest:
+                    index_str, rest = rest.split(']', 1)
+                    index = int(index_str)
+                    signal_obj = signal_obj[index]
+                    if '[' in rest:
+                        rest = rest.split('[', 1)[1]
+                    else:
+                        rest = ''
+                part = rest
+            if part:
+                signal_obj = getattr(signal_obj, part)
         return signal_obj
     except AttributeError:
         return None
-
+    except IndexError:
+        return None
+    except ValueError:
+        return None
+        
 # Función para añadir señal al archivo XML
 def add_signal(signal_name, final_value):
     # Leer el archivo XML existente
@@ -142,27 +140,18 @@ with open("config.json", "r") as config_file:
 async def dynamic_test(dut):
     # Duración total deseada para cada test
     total_duration = 9000
-
     # Determinar el tiempo de inyección
     injection_time = instante_inyeccion(valor=exp.get("injection_time"), intervalo=exp.get("injection_interval"))
-
     # Determinar la duración del fallo
     duration = duracion_fallo(injection_time, total_duration, valor=exp.get("duration"), intervalo=exp.get("duration_interval"))
-
-    # Esperar el tiempo de inyección
+    # Determinar señal a inyectar
     await Timer(injection_time, units='ns')
-
-    # Imprimir detalles de la señal y del fallo para depuración
-    print(f"Inyectando fallo en la señal {exp['signal_name']} con tipo {exp['fault_type']} y valor {exp['fault_value']}")
-
     # Inyectar el fallo
     await inject_fault(dut, exp["signal_name"], exp["fault_type"], exp["fault_value"], duration)
-
     # Esperar el tiempo restante para completar la duración total del test
     remaining_time = total_duration - injection_time - duration
     if remaining_time > 0:
         await Timer(remaining_time, units='ns')
-
     # Observar las señales y guardarlas
     observe_signals(dut)
 

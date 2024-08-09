@@ -3,15 +3,15 @@
      0.00ns INFO     cocotb                             Running on Icarus Verilog version 11.0 (stable)
      0.00ns INFO     cocotb                             Running tests with cocotb v2.0.0.dev0+36832c15 from /home/emnalo/.local/lib/python3.10/site-packages/cocotb
      0.00ns WARNING  gpi                                vpi_iterate returned NULL for type vpiInstance for object NULL
-     0.00ns INFO     cocotb                             Seeding Python random module with 1722417564
+     0.00ns INFO     cocotb                             Seeding Python random module with 1722970748
      0.00ns INFO     cocotb.regression                  running GoldenRun.golden_run (1/1)
   9000.00ns INFO     cocotb.regression                  GoldenRun.golden_run passed
   9000.00ns INFO     cocotb.regression                  **************************************************************************************
                                                         ** TEST                          STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
                                                         **************************************************************************************
-                                                        ** GoldenRun.golden_run           PASS        9000.00           0.01    1332136.08  **
+                                                        ** GoldenRun.golden_run           PASS        9000.00           0.03     265873.65  **
                                                         **************************************************************************************
-                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0               9000.00           0.01     897604.09  **
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0               9000.00           0.04     243911.63  **
                                                         **************************************************************************************
                                                         
-VCD info: dumpfile pic_core_test.vcd opened for output.
+VCD info: dumpfile iverilog.vcd opened for output.

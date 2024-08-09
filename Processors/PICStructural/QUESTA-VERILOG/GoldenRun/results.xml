@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1723137859" />
+    <testcase name="golden_run" classname="GoldenRun" file="/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/GoldenRun.py" lineno="38" time="0.01517176628112793" sim_time_ns="9000.001" ratio_time="593207.2003504989" />
+  </testsuite>
+</testsuites>

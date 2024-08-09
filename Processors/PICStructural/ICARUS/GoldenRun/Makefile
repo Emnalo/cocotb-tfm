@@ -15,7 +15,7 @@ VERILOG_SOURCES +=$(shell pwd)/source/pic_core.v
 VERILOG_SOURCES +=$(shell pwd)/source/pic_ctrl.v
 VERILOG_SOURCES +=$(shell pwd)/source/pic_rom.v
 VERILOG_SOURCES +=$(shell pwd)/source/bench.v
-TOPLEVEL = pic_core_test
+TOPLEVEL = bench
 MODULE =GoldenRun
 include $(shell cocotb-config --makefiles)/Makefile.sim
 #make SIM=icarus

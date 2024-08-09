@@ -1,0 +1,408 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1
+T_opt
+Z2 !s110 1723133082
+VclI^3`XjWMi^LHf1[oRh<0
+04 5 4 work bench fast 0
+=1-000ae431a4f1-66b4ec9a-76e8f-2e22
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet +acc -auto_acc_if_foreign -work sim_build/work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+vbench
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 PUlWbPDcozBSVj;5Gj_[h2
+IHj=R>VGNHeFCi022_cBjQ1
+S1
+R1
+w1722970728
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/bench.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/bench.v
+!i122 0
+Z5 L0 22 37
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z8 !s108 1723133082.000000
+Z9 !s107 /home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/bench.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_rom.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_ctrl.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_core.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_w.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_s.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_pc.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_io.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_inst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_fsr.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_file.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_cons.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8t.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8rst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_alu.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/fadr_mux.v|
+Z10 !s90 -work|work|-sv|-timescale|1ns/1ps|-mfcu|+acc|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/fadr_mux.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_alu.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8rst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8t.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_cons.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_file.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_fsr.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_inst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_io.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_pc.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_s.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_w.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_core.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_ctrl.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_rom.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/bench.v|
+!i113 0
+Z11 o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfadr_mux
+R4
+R2
+!i10b 1
+!s100 ^U?CV<IzR671m<l2;]Y:o1
+I0d;DMSJ9^0O4X<2mnZGPB1
+S1
+R1
+w1722781082
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/fadr_mux.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/fadr_mux.v
+!i122 0
+L0 23 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_alu
+R4
+R2
+!i10b 1
+!s100 10`aAl0YGXBOb9RnXUQF72
+ISiThVa>Vb]e]]k<m2Mf;@3
+S1
+R1
+w1722966002
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_alu.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_alu.v
+!i122 0
+L0 22 104
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_core
+R4
+R2
+!i10b 1
+!s100 _E4A6VUOJ7kCnI7>]H@4]0
+IQ8XjeX@?GJeS[M^k0HIQe1
+S1
+R1
+w1722889806
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_core.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_core.v
+!i122 0
+L0 22 273
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_ctrl
+R4
+R2
+!i10b 1
+!s100 ofblIi3^>9AYze8[dF16U1
+I]zHLHO4K6PTB@5J_@c;BL2
+S1
+R1
+w1722968818
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_ctrl.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_ctrl.v
+!i122 0
+L0 23 451
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_rom
+R4
+R2
+!i10b 1
+!s100 QPaIZMh2bim[Mj3XFWMg13
+I5Sa6;HZUOkCzhAnNAODO10
+S1
+R1
+w1722881902
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_rom.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/pic_rom.v
+!i122 0
+L0 22 61
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_8rst
+R4
+R2
+!i10b 1
+!s100 iIR]^J6aQG;]LTfG9YK4F1
+I`:m82@ZM?4oPaXzMeO4Pd3
+S1
+R1
+w1722960160
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8rst.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8rst.v
+!i122 0
+Z12 L0 22 22
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_8t
+R4
+R2
+!i10b 1
+!s100 U;2?5?A164g=dme7d?eS93
+I9?ba?@3UN<ha6=M@_i3Lj2
+S1
+R1
+w1722628840
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8t.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_8t.v
+!i122 0
+L0 22 19
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_cons
+R4
+R2
+!i10b 1
+!s100 eM?h^e8M9Yb:7GA@bh0]>0
+IZNQ^Z11mo?n60RdQIEe4Y3
+S1
+R1
+w1722629924
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_cons.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_cons.v
+!i122 0
+L0 22 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_file
+R4
+R2
+!i10b 1
+!s100 a^_L?f5ECmlPL`h1FMG943
+Ij=V0jSKNEoPO;aQezO@`B2
+S1
+R1
+w1722962596
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_file.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_file.v
+!i122 0
+L0 22 126
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_fsr
+R4
+R2
+!i10b 1
+!s100 ZcFcgE37CC7DA_loEfb6I2
+I6jjCMz>ZmH][=R]`9@V;W0
+S1
+R1
+w1722889860
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_fsr.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_fsr.v
+!i122 0
+L0 22 21
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_inst
+R4
+R2
+!i10b 1
+!s100 0XLmQ21Wi^ahH4T:Un`]]2
+I7Fe4[;=_9;c`lA7;Z4Q]80
+S1
+R1
+w1722960256
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_inst.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_inst.v
+!i122 0
+L0 22 28
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_io
+R4
+R2
+!i10b 1
+!s100 nAK=ITG8WMFbbTY8T^0I]2
+IbPKf`:lUE9HC;D<79Aij[1
+S1
+R1
+w1722628960
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_io.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_io.v
+!i122 0
+L0 22 32
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_pc
+R4
+R2
+!i10b 1
+!s100 X`TEmOe;2nC9_<5BFn@_R3
+Im@TnDj``4AXSIMfTJMK^L1
+S1
+R1
+w1722962540
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_pc.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_pc.v
+!i122 0
+L0 22 48
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_s
+R4
+R2
+!i10b 1
+!s100 `Q6z=EhTYP7;]ddi0ee^F1
+IIOMf:c8MS54J5Q=dz2PB91
+S1
+R1
+w1722960228
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_s.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_s.v
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_w
+R4
+R2
+!i10b 1
+!s100 2hMX72VY0P9nPjQKT7bAM3
+IF<MQ8Y_djEO5GOKRNj_DU3
+S1
+R1
+w1722629326
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_w.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/../source/reg_w.v
+!i122 0
+R12
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3

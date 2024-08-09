@@ -1,0 +1,11 @@
+{
+    "exp": {
+        "test1": {
+            "signal_name": "top.alu.result[0]",
+            "fault_type": "permanent",
+            "fault_value": 0,
+            "injection_time": 1,
+            "duration": 0
+        }
+   }
+}

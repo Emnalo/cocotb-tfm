@@ -1,0 +1,408 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun
+T_opt
+Z2 !s110 1723137858
+VB`TNXhKnb7=Fl`meni^^P2
+04 5 4 work bench fast 0
+=1-000ae431a4f1-66b4ff42-6e93e-39eb
+R0
+!s12b OEM100
+!s124 OEM100
+o-quiet +acc -auto_acc_if_foreign -work sim_build/work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2022.4;75
+vbench
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 PUlWbPDcozBSVj;5Gj_[h2
+IZgNacH0:MAF@gXFFSPU221
+S1
+R1
+w1722970728
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/bench.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/bench.v
+!i122 0
+Z5 L0 22 37
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z8 !s108 1723137858.000000
+Z9 !s107 /home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/bench.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_rom.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_ctrl.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_core.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_w.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_s.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_pc.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_io.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_inst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_fsr.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_file.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_cons.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8t.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8rst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_alu.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/fadr_mux.v|
+Z10 !s90 -work|work|-sv|-timescale|1ns/1ps|-mfcu|+acc|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/fadr_mux.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_alu.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8rst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8t.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_cons.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_file.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_fsr.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_inst.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_io.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_pc.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_s.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_w.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_core.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_ctrl.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_rom.v|/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/bench.v|
+!i113 0
+Z11 o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfadr_mux
+R4
+R2
+!i10b 1
+!s100 ^U?CV<IzR671m<l2;]Y:o1
+IHXd?lPkT<;ZO:CbP9<nHk3
+S1
+R1
+w1722781082
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/fadr_mux.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/fadr_mux.v
+!i122 0
+L0 23 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_alu
+R4
+R2
+!i10b 1
+!s100 10`aAl0YGXBOb9RnXUQF72
+IebU5]F7JmNXV0TkS^oP4D3
+S1
+R1
+w1722966002
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_alu.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_alu.v
+!i122 0
+L0 22 104
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_core
+R4
+R2
+!i10b 1
+!s100 a^@Ce;7H:dTmk1Y=E_FSF1
+IN[f649U9n=Jkb>jH>fZ2Q1
+S1
+R1
+w1723137790
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_core.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_core.v
+!i122 0
+L0 22 273
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_ctrl
+R4
+R2
+!i10b 1
+!s100 ofblIi3^>9AYze8[dF16U1
+IRAnF1k@R;IPM5B>GB2E3>2
+S1
+R1
+w1722968818
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_ctrl.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_ctrl.v
+!i122 0
+L0 23 451
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vpic_rom
+R4
+R2
+!i10b 1
+!s100 UAMUJ1mXjD_``ARLA5<`o1
+IZ8=U>PP5R_e0X:`n4a_U81
+S1
+R1
+w1723137851
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_rom.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/pic_rom.v
+!i122 0
+L0 22 61
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_8rst
+R4
+R2
+!i10b 1
+!s100 iIR]^J6aQG;]LTfG9YK4F1
+IAgH>5^JTRc[_?UkSMOLKz0
+S1
+R1
+w1722960160
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8rst.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8rst.v
+!i122 0
+Z12 L0 22 22
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_8t
+R4
+R2
+!i10b 1
+!s100 U;2?5?A164g=dme7d?eS93
+IBWWCLG4]cmHj38HK1aR1o0
+S1
+R1
+w1722628840
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8t.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_8t.v
+!i122 0
+L0 22 19
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_cons
+R4
+R2
+!i10b 1
+!s100 eM?h^e8M9Yb:7GA@bh0]>0
+ILFEbdET0S?ziX1V@T^@GC3
+S1
+R1
+w1722629924
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_cons.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_cons.v
+!i122 0
+L0 22 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_file
+R4
+R2
+!i10b 1
+!s100 a^_L?f5ECmlPL`h1FMG943
+IZlLI:gLV3Bf;4Tj5m7WK42
+S1
+R1
+w1722962596
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_file.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_file.v
+!i122 0
+L0 22 126
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_fsr
+R4
+R2
+!i10b 1
+!s100 ZcFcgE37CC7DA_loEfb6I2
+I[`A8DmIjib^59DmE^PQGZ2
+S1
+R1
+w1722889860
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_fsr.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_fsr.v
+!i122 0
+L0 22 21
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_inst
+R4
+R2
+!i10b 1
+!s100 0XLmQ21Wi^ahH4T:Un`]]2
+I?zR=9_[Q:ZW_:zoO:V23D2
+S1
+R1
+w1722960256
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_inst.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_inst.v
+!i122 0
+L0 22 28
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_io
+R4
+R2
+!i10b 1
+!s100 nAK=ITG8WMFbbTY8T^0I]2
+IbXE<1f[;kiz1Om2B^e8XB1
+S1
+R1
+w1722628960
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_io.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_io.v
+!i122 0
+L0 22 32
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_pc
+R4
+R2
+!i10b 1
+!s100 X`TEmOe;2nC9_<5BFn@_R3
+I2k`dg9Ok:B3nk`>=7bo1n3
+S1
+R1
+w1722962540
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_pc.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_pc.v
+!i122 0
+L0 22 48
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_s
+R4
+R2
+!i10b 1
+!s100 `Q6z=EhTYP7;]ddi0ee^F1
+IkbVQ7B8_5=Kl0`z3WUhhT2
+S1
+R1
+w1722960228
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_s.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_s.v
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vreg_w
+R4
+R2
+!i10b 1
+!s100 2hMX72VY0P9nPjQKT7bAM3
+ImaQCc49]6V@YmV60WlS=U2
+S1
+R1
+w1722629326
+8/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_w.v
+F/home/emnalo/cocotb-tfm/Processors/PICStructural/QUESTA-VERILOG/GoldenRun/source/reg_w.v
+!i122 0
+R12
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3

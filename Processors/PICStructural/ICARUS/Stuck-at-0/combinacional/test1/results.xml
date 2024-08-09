@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1723134865" />
+    <testcase name="dynamic_test" classname="ParametricTest" file="/home/emnalo/cocotb-tfm/Processors/PICStructural/ICARUS/Stuck-at-0/combinacional/test1/ParametricTest.py" lineno="140" time="0.0008075237274169922" sim_time_ns="1.001" ratio_time="1239.592059049306">
+      <failure message="Test failed with RANDOM_SEED=1723134865" />
+    </testcase>
+  </testsuite>
+</testsuites>
