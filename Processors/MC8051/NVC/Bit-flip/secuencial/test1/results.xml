@@ -1,8 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1723241473" />
-    <testcase name="dynamic_test" classname="ParametricTest" file="/home/emnalo/cocotb-tfm/Processors/MC8051/NVC/Bit-flip/secuencial/test1/ParametricTest.py" lineno="138" time="0.007470846176147461" sim_time_ns="7549.000001" ratio_time="1010461.1744118177">
-      <failure message="Test failed with RANDOM_SEED=1723241473" />
-    </testcase>
-  </testsuite>
-</testsuites>

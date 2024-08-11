@@ -98,7 +98,7 @@ def get_signal(dut, signal_name):
         return None
     except ValueError:
         return None
-        
+
 # Función para añadir señal al archivo XML
 def add_signal(signal_name, final_value):
     # Leer el archivo XML existente
@@ -120,13 +120,12 @@ def add_signal(signal_name, final_value):
 
     # Escribir el árbol XML modificado de nuevo al archivo
     tree.write(results_namefile, encoding="utf-8", xml_declaration=True)
-
 # Señales a observar
-observed_signals = ["RES[0]","RES[1]","RES[2]","RES[3]",
-		    "RES[4]","RES[5]","RES[6]","RES[7]",
-		    "RES[8]","RES[9]","RES[10]","RES[11]",
-		    "RES[12]","RES[13]","RES[14]","RES[15]",
-		    "RES[16]","RES[17]","RES[18]","RES[19]"]
+observed_signals = ["RES[0]", "RES[1]", "RES[2]", "RES[3]",
+                    "RES[4]", "RES[5]", "RES[6]", "RES[7]",
+                    "RES[8]", "RES[9]", "RES[10]", "RES[11]",
+                    "RES[12]", "RES[13]", "RES[14]", "RES[15]",
+                    "RES[16]", "RES[17]", "RES[18]", "RES[19]"]
 
 # Leer configuración del experimento JSON
 with open("config.json", "r") as config_file:
@@ -138,17 +137,23 @@ with open("config.json", "r") as config_file:
 @cocotb.test(skip=False)
 async def dynamic_test(dut):
     # Duración total deseada para cada test
-    total_duration = 20000
+    total_duration = 2000000
+
     # Determinar el tiempo de inyección
     injection_time = instante_inyeccion(valor=exp.get("injection_time"), intervalo=exp.get("injection_interval"))
+
     # Determinar la duración del fallo
     duration = duracion_fallo(injection_time, total_duration, valor=exp.get("duration"), intervalo=exp.get("duration_interval"))
+
     # Esperar el tiempo de inyección
     await Timer(injection_time, units='ns')
     await inject_fault(dut, exp["signal_name"], exp["fault_type"], exp["fault_value"], duration)
+
     # Esperar el tiempo restante para completar la duración total del test
     remaining_time = total_duration - injection_time - duration
     if remaining_time > 0:
         await Timer(remaining_time, units='ns')
+
     # Observar las señales y guardarlas
     observe_signals(dut)
+

@@ -4,7 +4,7 @@
 COMMAND="make SIM=nvc"
 
 # Intervalo entre cada ejecución
-INTERVAL=1
+INTERVAL=0
 
 # Directorio actual donde está el script (raíz)
 CURRENT_DIRECTORY="$(pwd)"

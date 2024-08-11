@@ -151,7 +151,7 @@ begin                 -- architecture structural
               ov_o     => s_addsub_ov,
               rslt_o   => s_addsub_rslt);
 
-  gen_multiplier1 : if C_IMPL_MUL = 1 generate
+  --gen_multiplier1 : if C_IMPL_MUL = 1 generate
     i_comb_mltplr : comb_mltplr
       generic map (
         DWIDTH     => DWIDTH)
@@ -159,12 +159,12 @@ begin                 -- architecture structural
         mltplcnd_i => s_mltplcnd,
         mltplctr_i => s_mltplctr,
         product_o  => s_product);
-  end generate gen_multiplier1;
-  gen_multiplier0 : if C_IMPL_MUL /= 1 generate
-    s_product <= (others => '0');
-  end generate gen_multiplier0;
+ -- end generate gen_multiplier1;
+ -- gen_multiplier0 : if C_IMPL_MUL /= 1 generate
+ --   s_product <= (others => '0');
+ -- end generate gen_multiplier0;
 
-  gen_divider1  : if C_IMPL_DIV = 1 generate
+  --gen_divider1  : if C_IMPL_DIV = 1 generate
     i_comb_divider : comb_divider
       generic map (
         DWIDTH  => DWIDTH)
@@ -173,13 +173,13 @@ begin                 -- architecture structural
         dvsor_i => s_dvsor,
         qutnt_o => s_qutnt,
         rmndr_o => s_rmndr);
-  end generate gen_divider1;
-  gen_divider0  : if C_IMPL_DIV /= 1 generate
-    s_qutnt <= (others => '0');
-    s_rmndr <= (others => '0');
-  end generate gen_divider0;
+ -- end generate gen_divider1;
+ -- gen_divider0  : if C_IMPL_DIV /= 1 generate
+ --   s_qutnt <= (others => '0');
+  --  s_rmndr <= (others => '0');
+ -- end generate gen_divider0;
 
-  gen_dcml_adj1  : if C_IMPL_DA = 1 generate
+ -- gen_dcml_adj1  : if C_IMPL_DA = 1 generate
     i_dcml_adjust : dcml_adjust
       generic map (
         DWIDTH => DWIDTH)
@@ -188,10 +188,10 @@ begin                 -- architecture structural
         cy_i   => cy_i,
         data_o => s_dcml_rslt,
         cy_o   => s_dcml_cy);
-  end generate gen_dcml_adj1;
-  gen_dcml_adj0  : if C_IMPL_DA /= 1 generate
-    s_dcml_rslt <= (others => '0');
-    s_dcml_cy   <= '0';
-  end generate gen_dcml_adj0;
+ -- end generate gen_dcml_adj1;
+ -- gen_dcml_adj0  : if C_IMPL_DA /= 1 generate
+  --  s_dcml_rslt <= (others => '0');
+  --  s_dcml_cy   <= '0';
+  --end generate gen_dcml_adj0;
 
 end struc;

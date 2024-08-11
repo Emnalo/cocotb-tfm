@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1722884221" />
-    <testcase name="golden_run" classname="GoldenRun" file="/home/emnalo/cocotb-tfm/Processors/MC8051/QUESTA-VHDL/GoldenRun/GoldenRun.py" lineno="71" time="0.6154212951660156" sim_time_ns="2000000.001" ratio_time="3249806.2980750143" />
-  </testsuite>
-</testsuites>

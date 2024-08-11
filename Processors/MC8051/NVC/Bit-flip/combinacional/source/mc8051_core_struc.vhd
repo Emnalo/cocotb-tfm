@@ -175,47 +175,47 @@ begin                 -- architecture structural
              new_ov_o   => s_ovb);
 
 
-  gen_mc8051_siu : for i in c_impl_n_siu-1 downto 0 generate
+  --gen_mc8051_siu : for i in c_impl_n_siu-1 downto 0 generate
     i_mc8051_siu : mc8051_siu
       port map (clk       => clk,        -- SIUs inputs
                 reset     => reset,
-                tf_i      => s_all_tf1(i),
-                trans_i   => s_all_trans(i),
-                rxd_i     => all_rxd_i(i),
-                scon_i    => s_all_scon((6*i)+5 downto i*6),
-                sbuf_i    => s_all_sbuf((8*i)+7 downto i*8),
-                smod_i    => s_all_smod(i),
+                tf_i      => s_all_tf1(0),
+                trans_i   => s_all_trans(0),
+                rxd_i     => all_rxd_i(0),
+                scon_i    => s_all_scon((6*0)+5 downto 0*6),
+                sbuf_i    => s_all_sbuf((8*0)+7 downto 0*8),
+                smod_i    => s_all_smod(0),
                                          -- SIUs outputs
-                sbuf_o    => s_all_sbuf_out((8*i)+7 downto i*8),
-                scon_o    => s_all_scon_out((3*i)+2 downto i*3),
-                rxdwr_o   => all_rxdwr_o(i),
-                rxd_o     => all_rxd_o(i),
-                txd_o     => all_txd_o(i));
-  end generate;
+                sbuf_o    => s_all_sbuf_out((8*0)+7 downto 0*8),
+                scon_o    => s_all_scon_out((3*0)+2 downto 0*3),
+                rxdwr_o   => all_rxdwr_o(0),
+                rxd_o     => all_rxd_o(0),
+                txd_o     => all_txd_o(0));
+  --end generate;
 
 
-  gen_mc8051_tmrctr : for i in c_impl_n_tmr-1 downto 0 generate
+  --gen_mc8051_tmrctr : for i in c_impl_n_tmr-1 downto 0 generate
     i_mc8051_tmrctr : mc8051_tmrctr
       port map (clk        => clk,       -- tmr_ctr inputs
                 reset      => reset,
-                int0_i     => int0_i(i),
-                int1_i     => int1_i(i), 
-                t0_i       => all_t0_i(i),
-                t1_i       => all_t1_i(i), 
-                tmod_i     => s_all_tmod((8*i)+7 downto i*8),
-                tcon_tr0_i => s_all_tcon_tr0(i),
-                tcon_tr1_i => s_all_tcon_tr1(i),
-                reload_i   => s_all_reload((8*i)+7 downto i*8),
-                wt_en_i    => s_all_wt_en(i),
-                wt_i       => s_all_wt((2*i)+1 downto i*2),
+                int0_i     => int0_i(0),
+                int1_i     => int1_i(0), 
+                t0_i       => all_t0_i(0),
+                t1_i       => all_t1_i(0), 
+                tmod_i     => s_all_tmod((8*0)+7 downto 0*8),
+                tcon_tr0_i => s_all_tcon_tr0(0),
+                tcon_tr1_i => s_all_tcon_tr1(0),
+                reload_i   => s_all_reload((8*0)+7 downto 0*8),
+                wt_en_i    => s_all_wt_en(0),
+                wt_i       => s_all_wt((2*0)+1 downto 0*2),
                                          -- tmr_ctr outputs
-                th0_o      => s_all_th0((8*i)+7 downto i*8),
-                tl0_o      => s_all_tl0((8*i)+7 downto i*8),
-                th1_o      => s_all_th1((8*i)+7 downto i*8),
-                tl1_o      => s_all_tl1((8*i)+7 downto i*8),
-                tf0_o      => s_all_tf0(i),
-                tf1_o      => s_all_tf1(i));
-  end generate;
+                th0_o      => s_all_th0((8*0)+7 downto 0*8),
+                tl0_o      => s_all_tl0((8*0)+7 downto 0*8),
+                th1_o      => s_all_th1((8*0)+7 downto 0*8),
+                tl1_o      => s_all_tl1((8*0)+7 downto 0*8),
+                tf0_o      => s_all_tf0(0),
+                tf1_o      => s_all_tf1(0));
+  --end generate;
 
   
 end struc;

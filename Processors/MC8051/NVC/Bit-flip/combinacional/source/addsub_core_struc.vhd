@@ -72,45 +72,45 @@ architecture struc of addsub_core is
 
 begin  -- architecture structural
 
-  gen_smorequ_four : if (DWIDTH > 0 and DWIDTH <= 4) generate
-    addsub_ovcy_1 : addsub_ovcy
-      generic map (DWIDTH => DWIDTH)
-      port map (opa_i    => opa_i,
-                opb_i    => opb_i,
-                addsub_i => addsub_i,
-                cy_i     => cy_i,
-                cy_o     => cy_o(0),
-                ov_o     => ov_o,
-                rslt_o   => rslt_o);
-  end generate gen_smorequ_four;
+  --gen_smorequ_four : if (DWIDTH > 0 and DWIDTH <= 4) generate
+   -- addsub_ovcy_1 : addsub_ovcy
+    --  generic map (DWIDTH => DWIDTH)
+     -- port map (opa_i    => opa_i,
+       --         opb_i    => opb_i,
+         --       addsub_i => addsub_i,
+           --     cy_i     => cy_i,
+             --   cy_o     => cy_o(0),
+               -- ov_o     => ov_o,
+               -- rslt_o   => rslt_o);
+  --end generate gen_smorequ_four;
 
   s_cy(1)(0) <= cy_i;
   
-  gen_greater_four : if (DWIDTH > 4) generate
-    gen_addsub: for i in 1 to DWIDTH generate
-      gen_nibble_addsub: if (i mod 4 = 0) and i <= ((DWIDTH-1)/4)*4 generate
+  --gen_greater_four : if (DWIDTH > 4) generate
+    --gen_addsub: for i in 1 to DWIDTH generate
+     -- gen_nibble_addsub: if (i mod 4 = 0) and i <= ((DWIDTH-1)/4)*4 generate
 	i_addsub_cy: addsub_cy
 	  generic map (DWIDTH => 4)
-	  port map (opa_i => opa_i(i-1 downto i-4),
-		    opb_i => opb_i(i-1 downto i-4),
+	  port map (opa_i => opa_i(4-1 downto 4-4),
+		    opb_i => opb_i(4-1 downto 4-4),
 		    addsub_i => addsub_i,
-		    cy_i => s_cy(i/4)(0),
-		    cy_o => s_cy((i+4)/4)(0),
-		    rslt_o => rslt_o(i-1 downto i-4));
-	cy_o(i/4-1) <= s_cy((i+4)/4)(0);
-      end generate gen_nibble_addsub;
-      gen_last_addsub: if (i = ((DWIDTH-1)/4)*4+1) generate
+		    cy_i => s_cy(4/4)(0),
+		    cy_o => s_cy((4+4)/4)(0),
+		    rslt_o => rslt_o(4-1 downto 4-4));
+	cy_o(4/4-1) <= s_cy((4+4)/4)(0);
+     -- end generate gen_nibble_addsub;
+      --gen_last_addsub: if (i = ((DWIDTH-1)/4)*4+1) generate
 	i_addsub_ovcy: addsub_ovcy
 	  generic map (DWIDTH => DWIDTH-((DWIDTH-1)/4)*4)
-	  port map (opa_i => opa_i(DWIDTH-1 downto i-1), 
-		    opb_i => opb_i(DWIDTH-1 downto i-1), 
+	  port map (opa_i => opa_i(DWIDTH-1 downto 5-1), 
+		    opb_i => opb_i(DWIDTH-1 downto 5-1), 
 		    addsub_i => addsub_i,
 		    cy_i => s_cy((DWIDTH-1)/4+1)(0),
 		    cy_o => cy_o((DWIDTH-1)/4),
 		    ov_o => ov_o,
-		    rslt_o => rslt_o(DWIDTH-1 downto i-1)); 
-      end generate gen_last_addsub;
-    end generate gen_addsub;
-  end generate gen_greater_four;
+		    rslt_o => rslt_o(DWIDTH-1 downto 5-1)); 
+      --end generate gen_last_addsub;
+    --end generate gen_addsub;
+  --end generate gen_greater_four;
 
 end struc;

@@ -12,5 +12,7 @@ Procesadores candidatos como sujetos para campaña de inyección a través de Co
 			- Bit-flip: Campaña de inyección donde los experimentos inyectan en todos los puntos un fallo transitorio con la inversa del valor en el momento de inyección (aleatorio). 
 				-Combinacional: Los puntos de inyección son señales del componente que siguen una lógica combinacional (Forzado force)
 				-Secuencial: Los puntos de inyección son señales del componente que siguen una lógica secuencial (Forzado con deposit)
-	-Carpeta miscelanea para el manejo de las señales combinacionales y secuenciales + generación de configuraciones json			
+	-Carpeta miscelanea para el manejo de las señales combinacionales y secuenciales + generación de configuraciones json
+	-compare_signalsv2.py: Segunda versión del script python que compara las señales generadas en los test con la GoldenRun. Es capaz de detectar los test faltantes.
+	-infratestv2.sh: Segunda versión del script bash para generar infraestructura de experimentos. Permite la medición del tiempo, elegir desde donde empezar los test y una trap para medir el tiempo pasado en caso de salida con CTRL-C. 			
 			

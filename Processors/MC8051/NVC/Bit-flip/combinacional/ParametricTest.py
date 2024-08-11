@@ -54,7 +54,6 @@ async def inject_fault(dut, signal_name, fault_type, fault_value, duration):
     :param duration: Duración del fallo (sólo para fallos transitorios).
     """
     signal = get_signal(dut, signal_name)
-
     # Aplicar el fallo
     if fault_type == "permanent":
         signal.value = Force(fault_value)
@@ -94,7 +93,11 @@ def get_signal(dut, signal_name):
             if part:
                 signal_obj = getattr(signal_obj, part)
         return signal_obj
-    except (AttributeError, IndexError, ValueError):
+    except AttributeError:
+        return None
+    except IndexError:
+        return None
+    except ValueError:
         return None
 
 # Función para añadir señal al archivo XML
@@ -118,7 +121,6 @@ def add_signal(signal_name, final_value):
 
     # Escribir el árbol XML modificado de nuevo al archivo
     tree.write(results_namefile, encoding="utf-8", xml_declaration=True)
-
 # Señales a observar
 observed_signals = ["RES[0]", "RES[1]", "RES[2]", "RES[3]",
                     "RES[4]", "RES[5]", "RES[6]", "RES[7]",
@@ -136,7 +138,7 @@ with open("config.json", "r") as config_file:
 @cocotb.test(skip=False)
 async def dynamic_test(dut):
     # Duración total deseada para cada test
-    total_duration = 20000
+    total_duration = 2000000
 
     # Determinar el tiempo de inyección
     injection_time = instante_inyeccion(valor=exp.get("injection_time"), intervalo=exp.get("injection_interval"))
