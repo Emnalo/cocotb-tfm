@@ -29,7 +29,7 @@ function show_elapsed_time {
 }
 
 # Configurar la trampa para capturar SIGINT (Ctrl+C) y ejecutar la función de tiempo
-trap show_elapsed_time SIGINT
+trap 'show_elapsed_time; exit' SIGINT
 
 # Crear la carpeta de resultados si no existe
 RESULTADOS_DIR="${CURRENT_DIRECTORY}/resultados"
