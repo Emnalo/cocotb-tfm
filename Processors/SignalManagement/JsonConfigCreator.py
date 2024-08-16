@@ -14,7 +14,7 @@ def create_json(signals):
                 "fault_type": fault_type,
                 "fault_value": fault_value,
                 "injection_interval": [200000, 1800000],
-                "duration": 0
+                "duration": 10
             }
         else:
             tests[test_name] = {
